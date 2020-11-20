@@ -2,11 +2,11 @@
 
 Author:
 
-1. Daffa
+1. Daffa Tsany Sembodo
 2. Dennis Ferdian
-3. Jasri
-4. Rani
-5. Windy
+3. Jasri Silvika Aysyah
+4. Siti Ranisa Dayuansari
+5. Windy Mega Melani
 
 ## How to start
 

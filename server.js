@@ -8,6 +8,11 @@ app.get('/', (req, res) => {
 	res.sendFile(__dirname + '/public/main.html');
 });
 
+app.get('/materi', (req, res) => {
+	res.sendFile(__dirname + '/public/materi.html');
+});
+
 app.listen(3000, () => {
 	console.log('server is running on port 3000');
 });
+

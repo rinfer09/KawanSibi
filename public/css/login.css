@@ -74,7 +74,38 @@ form {
 }
 
 .register {
-	display: inline-block;
-	width: 30px;
-	margin: 10px 0;
+	display: inline-flex;
 }
+
+.register a {
+	color: #1f3c88;
+	padding: 5px;
+	margin-left: 20px;
+	box-shadow: 2px 3px 4px #98a9d5;
+	border-radius: 10px;
+}
+
+@media (max-width: 824px) {
+	body {
+		font-size: 3vw;
+	}
+
+	.register {
+		display: inline-block;
+		text-align: left;
+		margin: 0;
+	}
+
+	.register a {
+		display: inline-block;
+		margin: 10px 0;
+		padding: 3%;
+		font-size: 2vw;
+	}
+
+	button {
+		margin: auto 0;
+		border-radius: 10px;
+		width: 110%;
+	}
+} ;

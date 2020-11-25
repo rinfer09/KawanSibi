@@ -1,17 +1,19 @@
-/* css reset
-@import 'reset.css'; */
+/* css reset */
+@import 'reset.css';
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
 
 body {
 	background-color: #84acf2;
-	font-size: 24px;
+	font-size: 2vw;
 	font-family: 'Rowdies', cursive;
 	color: #ffffff;
 	overflow: hidden;
 }
 
 a {
+	color: #ffffff;
+	text-decoration: none;
 	border: none;
 	border-radius: 25px;
 	background-color: #1f3c88;
@@ -24,7 +26,7 @@ a:hover {
 }
 
 .brand {
-	font-size: 80px;
+	font-size: 7vw;
 }
 
 .mulai-btn {
@@ -34,8 +36,8 @@ a:hover {
 .quotes {
 	letter-spacing: 2px;
 	margin-top: 150px;
-	margin-left: 50px;
-	width: 600px;
+	margin-left: 3%;
+	width: 40%;
 }
 
 .quotes p {
@@ -70,4 +72,29 @@ a:hover {
 	top: 0;
 	right: 5%;
 	z-index: 5;
+}
+
+@media (max-width: 1100px) {
+}
+
+@media screen and (max-width: 991px) {
+	body {
+		text-align: center;
+	}
+
+	.liquid1,
+	.liquid2,
+	.liquid3 {
+		visibility: hidden;
+	}
+	.quotes {
+		margin: 20% auto 0;
+	}
+
+	.illus {
+		position: static;
+		margin: 0;
+		padding: 0;
+		width: 25%;
+	}
 }

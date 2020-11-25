@@ -1,7 +1,7 @@
 const mysql = require('mysql');
 const db = require('./config/configdb');
 
-var connection = mysql.createConnection(db);
+const connection = mysql.createConnection(db);
 
 connection.connect(function (err) {
 	if (err) {
@@ -9,5 +9,5 @@ connection.connect(function (err) {
 		return;
 	}
 
-	console.log('connected ro database as id ' + connection.threadId);
+	console.log('connected to database');
 });

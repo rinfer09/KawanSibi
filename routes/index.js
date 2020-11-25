@@ -9,4 +9,8 @@ app.get('/login', (req, res) => {
 	res.sendFile(path.resolve('public/login.html'));
 });
 
+app.get('/register', (req, res) => {
+	res.sendFile(path.resolve('public/register.html'));
+});
+
 module.exports = app;

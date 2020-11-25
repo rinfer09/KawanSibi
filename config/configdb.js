@@ -1,6 +1,8 @@
 const db = {
 	host: 'localhost',
 	user: 'root',
-	password: 'password',
-	database: 'KawanSibi',
+	password: '',
+	database: 'kawanSibi',
 };
+
+module.exports = db;

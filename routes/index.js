@@ -1,16 +1,21 @@
-const app = require('express').Router();
-var path = require('path');
+const Router = require('express').Router();
 
-app.get('/', (req, res) => {
-	res.sendFile(path.resolve('public/main.html'));
-});
+const pages = require('./pages');
+Router.use('/', pages);
 
-app.get('/login', (req, res) => {
-	res.sendFile(path.resolve('public/login.html'));
-});
+const editPassword = require('./editPassword');
+Router.use('/api/editPassword', editPassword);
 
-app.get('/register', (req, res) => {
-	res.sendFile(path.resolve('public/register.html'));
-});
+const login = require('./login');
+Router.use('/api/login', login);
 
-module.exports = app;
+const logout = require('./logout');
+Router.use('/api/logout', logout);
+
+const profil = require('./profil');
+Router.use('/api/profil', profil);
+
+const register = require('./register');
+Router.use('/api/register', register);
+
+module.exports = Router;

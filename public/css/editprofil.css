@@ -1,113 +1,141 @@
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
 body {
-    margin: 0;
-    font-size: 30px;
-    font-family: 'Rowdies', cursive;
+	margin: 0;
+	font-size: 30px;
+	font-family: 'Rowdies', cursive;
+}
+a {
+	text-decoration: none;
 }
 
-.container{
-    /* nahh container ini jadi dasarnya 2 box itu */
-    /* nahh gue bikin tuh ga full satu monitor, tapi sekotak doang aja gitu */
-    /* karena menurut gue kalo full satu website itu bakal jelek */
-    /* soalanya kan cuma buat edit password doang */
-    /* seenaknya kelompok lo aja dah, diskusiin dulu */
-    width: 1350px auto;
-    height: 1055px;
-    margin: 0 auto;
-    /* tapi ini jadi warna dasar di box kanan, jadi kalo mau ganti ya silakan */
-    background-color: #ffffff; 
-    border: 0 solid;
-    /* ini gue kasih border biar lo kebayang aja luasnya semana */
-    display: flex;
-
+.non-active {
+	opacity: 0.5;
 }
 
-.boxkiri{
-    width: 25%;
-    height: auto;
-    background-color: #ad0d18;
-    /* ini juga ganti aja warnanya */
+.container {
+	/* nahh container ini jadi dasarnya 2 box itu */
+	/* nahh gue bikin tuh ga full satu monitor, tapi sekotak doang aja gitu */
+	/* karena menurut gue kalo full satu website itu bakal jelek */
+	/* soalanya kan cuma buat edit password doang */
+	/* seenaknya kelompok lo aja dah, diskusiin dulu */
+	width: 1350px auto;
+	height: 1055px;
+	margin: 0 auto;
+	/* tapi ini jadi warna dasar di box kanan, jadi kalo mau ganti ya silakan */
+	background-color: #ffffff;
+	border: 0 solid;
+	/* ini gue kasih border biar lo kebayang aja luasnya semana */
+	display: flex;
 }
 
-.boxkanan{
-    width: 75%;
-    height: auto;
-
+.boxkiri {
+	width: 25%;
+	height: auto;
+	background-color: #ad0d18;
+	/* ini juga ganti aja warnanya */
 }
 
-.namaapp{
-    margin-left: 20px;
-    font-size: 30px;
-    color: #ffffff;
-
+.boxkanan {
+	width: 75%;
+	height: auto;
 }
 
-.profilsaya{
-    margin-left: 70px;
-    margin-top: 80px;
-    color: #ffffff;
-    font-size: 18px;
+.namaapp {
+	margin-left: 20px;
+	font-size: 30px;
+	color: #ffffff;
 }
 
-.judul{
-    font-size: 30px;
-    text-align: center;
-    margin-top: 40px;
-    color: #69259C;
-
+.profilsaya {
+	margin-left: 40px;
+	margin-top: 80px;
+	color: #ffffff;
+	font-size: 18px;
 }
 
-.foto{
-    font-size: 12px;
-    text-align: center;
-    color: #69259C;
+.judul {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 40px;
+	color: #69259c;
 }
 
-.editprofil{
-    font-size: 18px;
-    margin: 70px;
-    color: #69259C;
+.foto {
+	font-size: 12px;
+	text-align: center;
+	color: #69259c;
+}
+
+.editprofil {
+	font-size: 18px;
+	margin: 70px;
+	color: #69259c;
 }
 
 .text {
-    background-color: #ffffff;
-    border: solid 1px #c4c4c4;
-    border-radius: 10px;
-    width: 800px;
-    margin-bottom: 10px;
-    padding: 10px;
-    }
-    
-    input::placeholder {
-    font-size: 18px;
-    font-family: 'Rowdies', cursive;
-    margin-left: 50px;
-    }
+	background-color: #ffffff;
+	border: solid 1px #c4c4c4;
+	border-radius: 10px;
+	width: 800px;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: #69259c;
+}
 
+input::placeholder {
+	font-size: 18px;
+	font-family: 'Rowdies', cursive;
+	margin-left: 50px;
+}
 
 button {
-    position: absolute;
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
-    width: 150px;
-    height: 50px;
-    left: 1100px;
-    top: 970px;
-    color: #ffffff;
-    background-color: #1f3c88;
-    font-size: 20px;
-    font-family: 'Rowdies', cursive;
-    }
+	position: absolute;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+	width: 150px;
+	height: 50px;
+	left: 1100px;
+	top: 970px;
+	color: #ffffff;
+	background-color: #1f3c88;
+	font-size: 20px;
+	font-family: 'Rowdies', cursive;
+}
 
-.nama{
-    display: flex;
-    width: 800px;
+.nama {
+	display: flex;
+	width: 800px;
 }
-.nama input{
-    width: 380px;
+.nama input {
+	width: 380px;
 }
-.namadepan{
-    margin-right: 20px;
+.namadepan {
+	margin-right: 20px;
+}
+
+.profil-saya {
+	display: flex;
+	border: solid 1px #ffffff;
+	margin-bottom: 10px;
+	width: 80%;
+	border-radius: 30px;
+	padding: 0 8px;
+}
+
+.profil-saya img {
+	width: 30px;
+	padding-top: 10px;
+	margin-right: 10px;
+}
+.navbox {
+	background-color: #ffffff;
+	width: 230px;
+	border-radius: 5px;
+	padding: 20px 10px;
+}
+
+.navbox a {
+	color: #ad0d18;
 }

@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KawanSiBi | Edit Profil</title>
-    <link rel="stylesheet" href="editprofil.css">
+    <link rel="stylesheet" href="/css/editprofil.css">
 </head>
 
 <body>
@@ -19,14 +19,19 @@
             </div>
             
             <div class="profilsaya">
+                
                 <!-- nahh nanti bikin yang tulisan
                 "PROFIL SAYA" itu pake javascript, gabisa pake html -->
-                <h1>Profil Saya</h1>
-                <ul>
-                    <li><a href="#">Ubah Profil</a></li>
-                    <li><a href="#">Ubah Password</a></li>
-                </ul>
-                <!-- ini gue tulis aja biar lo kebayang dimana nanti -->
+                <div class="profil-saya">
+                    <img src="/asset/icon/profile/orangProfil.svg" alt="orang">
+                    <h1>Profil Saya</h1>
+                </div>
+                <div class="navbox">
+                        <a href="#">Ubah Profil</a></li>
+                        <hr>
+                        <a class="non-active" href="#">Ubah Password</a></li>
+                    <!-- ini gue tulis aja biar lo kebayang dimana nanti -->
+                </div>
             
             </div>
         </section>
@@ -39,28 +44,28 @@
             </div>
 
             <div class="foto">
-            <img src="orang.png" alt="orang" width="75" height="75"/>
+            <img src="/asset/icon/profile/orang.png" alt="orang" width="75" height="75"/>
                 <h2>Ganti Foto</h2>
             </div>
 
             <div class="editprofil">
            
                 <h3>Username</h3>
-                    <input class="text" type="text" placeholder="" />
+                    <input class="text" type="text" disabled/>
                     <div class="nama">
                     <div class="namadepan">
                         <h3>Nama Depan</h3>
-                        <input class="text" type="text" placeholder="" />
+                        <input class="text" type="text" />
                     </div>
                     <div class="namabelakang">
                         <h3>Nama Belakang</h3>
-                        <input class="text" type="text" placeholder="" />
+                        <input class="text" type="text" />
                     </div>
                 </div>
                 <h3>Email</h3>
-                    <input class="text" type="text" placeholder="" /> 
+                    <input class="text" type="email" /> 
                 <h3>No Hp</h3>
-                    <input class="text" type="number" placeholder="" /> 
+                    <input class="text" type="number"/> 
                 <h3>Tanggal Lahir</h3>
                     <input class="text" type="date">
                 <h3>Jenis Kelamin</h3>
@@ -69,9 +74,6 @@
                     <input type="radio" name="jk">Laki-laki
                 </td>    
                 <button type="submit">Simpan</button>
-
-
-   
             </div>
 </body>
 </html>

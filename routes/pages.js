@@ -13,4 +13,8 @@ Router.get('/register', (req, res) => {
 	res.sendFile(path.resolve('public/register.html'));
 });
 
+Router.get('/editProfil', (req, res) => {
+	res.sendFile(path.resolve('public/editprofil.html'));
+});
+
 module.exports = Router;

@@ -12,7 +12,7 @@ router.post('/', async (req, res) => {
 			error.push({ msg: 'Isi semua kolom!' });
 		}
 		if (password.length < 6) {
-			error.push({ msg: 'password harus lebih dari 6' });
+			error.push({ msg: 'Password harus lebih dari 6 karakter' });
 		}
 		if (error.length > 0) {
 			res.status('500').json(error);

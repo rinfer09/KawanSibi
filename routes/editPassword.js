@@ -8,7 +8,12 @@ Router.patch('/', async (req, res) => {
 		const username = req.user.username;
 		const { passwordLama, password1, password2 } = req.body;
 		if (password1 !== password2) {
-			res.status('400').json({ message: 'password tidak sama' });
+			res.status('500').json({ message: 'password tidak sama' });
+		}
+		if (password1.length < 6) {
+			res
+				.status('500')
+				.json({ message: 'Password harus lebih dari 6 karakter' });
 		}
 		await conn.query(
 			`SELECT username, password FROM user WHERE username = '${username}'`,

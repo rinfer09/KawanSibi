@@ -8,7 +8,7 @@ body {
 
 .container{
     width: 1350px auto;
-    height: 1055px;
+    height: 655px;
     margin: 0 auto;
     background-color: #ffffff; 
     border: 0 solid;
@@ -21,7 +21,59 @@ body {
     height: auto;
     background-color: #ad0d18;
 }
+.head{
+    margin-top: 100px;
+    background-color: #ad0d18;
+    font-family: 'Rowdies', cursive;
+    font-size: 20px; 
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 20px;
+    border: #ffffff;
+}
+ul{
+list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+p{
+    color: #ffffff;  
+}
+a {
+    text-decoration: none;
 
+}
+p:hover{
+    
+}
+ul li .drop{
+    display: none;
+    font-family: 'Rowdies', cursive;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ad0d18;
+
+}
+
+ul li a:hover{
+    padding: 5px;
+    background-color: #ffffff;
+    color: #ad0d18;
+}
+ul li:hover .drop{
+    margin-top: 8px;
+    display: block;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #ad0d18;
+}
+ul li:hover .drop li{
+    display: block;
+
+}
 .boxkanan{
     width: 75%;
     height: auto;
@@ -36,10 +88,8 @@ body {
 }
 
 .profilsaya{
-    margin-left: 70px;
-    margin-top: 80px;
-    color: #ffffff;
-    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 50px;
 }
 
 .judul{
@@ -50,25 +100,19 @@ body {
 
 }
 
-.foto{
-    font-size: 12px;
-    text-align: center;
-    color: #69259C;
-}
-
-.editprofil{
-    font-size: 18px;
+.gantipass{
+    font-size: 20px;
     margin: 70px;
     color: #69259C;
 }
 
-.text {
+input {
     background-color: #ffffff;
     border: solid 1px #c4c4c4;
     border-radius: 10px;
     width: 800px;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
     }
     
     input::placeholder {
@@ -76,7 +120,6 @@ body {
     font-family: 'Rowdies', cursive;
     margin-left: 50px;
     }
-
 
 button {
     position: absolute;
@@ -86,20 +129,9 @@ button {
     width: 150px;
     height: 50px;
     left: 1100px;
-    top: 970px;
+    top: 570px;
     color: #ffffff;
     background-color: #1f3c88;
     font-size: 20px;
     font-family: 'Rowdies', cursive;
     }
-
-.nama{
-    display: flex;
-    width: 800px;
-}
-.nama input{
-    width: 380px;
-}
-.namadepan{
-    margin-right: 20px;
-}

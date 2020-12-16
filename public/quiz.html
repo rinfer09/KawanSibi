@@ -4,6 +4,46 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Kawan Sibi | quiz</title>
+		<link rel="stylesheet" href="/css/quiz.css" />
 	</head>
-	<body></body>
+	<body>
+		<div class="utama" id="utama">
+			<h1 id="nomor" class="nomer">1</h1>
+			<div class="content">
+				<div class="soal">
+					<img src="/asset/BuahSibi/rambutan.png" alt="a-sibi" />
+				</div>
+				<div class="jawaban">
+					<div class="jawab">
+						<p class="pil satu">A</p>
+						<p class="satu teks">A</p>
+					</div>
+					<div class="jawab">
+						<p class="pil dua">B</p>
+						<p class="dua teks">B</p>
+					</div>
+					<div class="jawab">
+						<p class="pil satu">C</p>
+						<p class="satu teks">C</p>
+					</div>
+					<div class="jawab">
+						<p class="pil dua">D</p>
+						<p class="dua teks">D</p>
+					</div>
+				</div>
+			</div>
+			<button class="periksa" id="periksa">Periksa</button>
+		</div>
+		<div class="hasil hide" id="hasil">
+			<img id="answer-img" src="/asset/icon/score/check.svg" alt="benar" />
+			<h3 id="quote">Jawaban kamu benar</h3>
+			<h3 id="answer">"Satu"</h3>
+			<img
+				src="/asset/icon/selanjutnya.svg"
+				alt="selanjutnya"
+				class="selanjutnya"
+			/>
+		</div>
+		<script src="/js/quiz.js"></script>
+	</body>
 </html>

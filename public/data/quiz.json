@@ -1,52 +1,323 @@
-[
-	{
-		"soal": "mudah",
-		"data": [
-			{
-				"nomer": 1,
-				"gambar": [],
-				"A": "",
-				"B": "",
-				"C": "",
-				"D": "",
-				"jawaban": "C"
-			},
-			{
-				"nomer": 2,
-				"gambar": [],
-				"A": "",
-				"B": "",
-				"C": "",
-				"D": "",
-				"jawaban": "C"
-			},
-			{
-				"nomer": 3,
-				"gambar": [],
-				"A": "",
-				"B": "",
-				"C": "",
-				"D": "",
-				"jawaban": "C"
-			},
-			{
-				"nomer": 4,
-				"gambar": [],
-				"A": "",
-				"B": "",
-				"C": "",
-				"D": "",
-				"jawaban": "C"
-			},
-			{
-				"nomer": 5,
-				"gambar": [],
-				"A": "",
-				"B": "",
-				"C": "",
-				"D": "",
-				"jawaban": "C"
-			}
-		]
-	}
-]
+{
+	"mudah": [
+		{
+			"judul": "Abjad",
+			"data": [
+				{
+					"nomer": 1,
+					"gambar": "/asset/AbjadSibi/c.jpeg",
+					"pilihan": ["A", "C", "M", "S"],
+					"jawaban": "M"
+				},
+				{
+					"nomer": 2,
+					"gambar": "/asset/AbjadSibi/h.jpeg",
+					"pilihan": ["A", "H", "X", "Z"],
+					"jawaban": "H"
+				},
+				{
+					"nomer": 3,
+					"gambar": "/asset/AbjadSibi/o.jpeg",
+					"pilihan": ["C", "O", "X", "F"],
+					"jawaban": "C"
+				},
+				{
+					"nomer": 4,
+					"gambar": "/asset/AbjadSibi/f.jpeg",
+					"pilihan": ["F", "G", "D", "X"],
+					"jawaban": "F"
+				},
+				{
+					"nomer": 5,
+					"gambar": "/asset/AbjadSibi/x.jpeg",
+					"pilihan": ["B", "C", "K", "U"],
+					"jawaban": "U"
+				}
+			]
+		},
+		{
+			"judul": "Angka",
+			"data": [
+				{
+					"nomer": 1,
+					"gambar": "/asset/AngkaSibi/dua.png",
+					"pilihan": ["2", "3", "6", "9"],
+					"jawaban": "2"
+				},
+				{
+					"nomer": 2,
+					"gambar": "/asset/AngkaSibi/lima.png",
+					"pilihan": ["1", "3", "5", "8"],
+					"jawaban": "5"
+				},
+				{
+					"nomer": 3,
+					"gambar": "/asset/AngkaSibi/enam.png",
+					"pilihan": ["3", "4", "6", "10"],
+					"jawaban": "6"
+				},
+				{
+					"nomer": 4,
+					"gambar": "/asset/AngkaSibi/delapan.png",
+					"pilihan": ["1", "6", "8", "10"],
+					"jawaban": "8"
+				},
+				{
+					"nomer": 5,
+					"gambar": "/asset/AngkaSibi/satu.png",
+					"pilihan": ["1", "4", "6", "9"],
+					"jawaban": "1"
+				}
+			]
+		},
+		{
+			"judul": "Kata ganti orang",
+			"data": [
+				{
+					"nomer": 1,
+					"gambar": "/asset/GantiOrang/dia.jpeg",
+					"pilihan": ["Dia", "Saya", "Kamu", "Aku"],
+					"jawaban": "Dia"
+				},
+				{
+					"nomer": 2,
+					"gambar": "/asset/AbjadSibi/aku.jpeg",
+					"pilihan": ["Saya", "Aku", "Kamu", "Mereka"],
+					"jawaban": "Aku"
+				},
+				{
+					"nomer": 3,
+					"gambar": "/asset/AbjadSibi/kita.jpeg",
+					"pilihan": ["Saya", "Mereka", "Kita", "Kamu"],
+					"jawaban": "Kita"
+				},
+				{
+					"nomer": 4,
+					"gambar": "/asset/AbjadSibi/mereka.jpeg",
+					"pilihan": ["Kamu", "Saya", "Dia", "Mereka"],
+					"jawaban": "Mereka"
+				},
+				{
+					"nomer": 5,
+					"gambar": "/asset/AbjadSibi/kamu.jpeg",
+					"pilihan": ["Kamu", "Aku", "Dia", "Mereka"],
+					"jawaban": "Kamu"
+				}
+			]
+		}
+	],
+	"menengah": [
+		{
+			"judul": "Tempat",
+			"data": [
+				{
+					"nomer": 1,
+					"gambar": "/asset/Tempat/bank.jpg",
+					"pilihan": ["Kebun", "Kolam", "Bank", "Sekolah"],
+					"jawaban": "Bank"
+				},
+				{
+					"nomer": 2,
+					"gambar": "/asset/Tempat/pasar.jpg",
+					"pilihan": ["Kebun", "Pasar", "Kolam", "Sekolah"],
+					"jawaban": "Pasar"
+				},
+				{
+					"nomer": 3,
+					"gambar": "/asset/Tempat/rumah.jpg",
+					"pilihan": ["Rumah", "Kolam", "Sekolah", "Kebun"],
+					"jawaban": "Rumah"
+				},
+				{
+					"nomer": 4,
+					"gambar": "/asset/Tempat/sekolah.jpg",
+					"pilihan": ["Taman", "Kolam", "Sekolah", "Kebun"],
+					"jawaban": "Sekolah"
+				},
+				{
+					"nomer": 5,
+					"gambar": "/asset/Tempat/kebun.jpg",
+					"pilihan": ["Taman", "Kolam", "Kelas", "Kebun"],
+					"jawaban": "Kebun"
+				}
+			]
+		},
+		{
+			"judul": "Pekerjaan",
+			"data": [
+				{
+					"nomer": 1,
+					"gambar": "/asset/Pekerjaan/buruh.jpg",
+					"pilihan": ["Buruh", "Dokter", "Murid", "Pilot"],
+					"jawaban": "Buruh"
+				},
+				{
+					"nomer": 2,
+					"gambar": "/asset/Pekerjaan/guru.jpg",
+					"pilihan": ["Guru", "Dokter", "Murid", "Pilot"],
+					"jawaban": "Guru"
+				},
+				{
+					"nomer": 3,
+					"gambar": "/asset/Pekerjaan/polisi.jpg",
+					"pilihan": ["Polisi", "Dokter", "Pegawai", "Pilot"],
+					"jawaban": "Polisi"
+				},
+				{
+					"nomer": 4,
+					"gambar": "/asset/Pekerjaan/pegawai.jpg",
+					"pilihan": ["Pegawai", "Tentara", "Murid", "Pilot"],
+					"jawaban": "C"
+				},
+				{
+					"nomer": 5,
+					"gambar": "/asset/Pekerjaan/dokter.jpg",
+					"pilihan": ["Dokter", "Tentara", "Murid", "Polisi"],
+					"jawaban": "Dokter"
+				}
+			]
+		},
+		{
+			"judul": "Keluarga",
+			"data": [
+				{
+					"nomer": 1,
+					"gambar": "/asset/Keluarga/anak.jpg",
+					"pilihan": ["Anak", "Ayah", "Ibu", "Kakek"],
+					"jawaban": "Anak"
+				},
+				{
+					"nomer": 2,
+					"gambar": "/asset/Keluarga/ayah.jpg",
+					"pilihan": ["Nenek", "Ayah", "Ibu", "Kakek"],
+					"jawaban": "Ayah"
+				},
+				{
+					"nomer": 3,
+					"gambar": "/asset/Keluarga/ibu.jpg",
+					"pilihan": ["Paman", "Ibu", "Bibi", "Nenek"],
+					"jawaban": "Ibu"
+				},
+				{
+					"nomer": 4,
+					"gambar": "/asset/Keluarga/adik.jpg",
+					"pilihan": ["Anak", "Ayah", "Adik", "Kakek"],
+					"jawaban": "Adik"
+				},
+				{
+					"nomer": 5,
+					"gambar": "/asset/Keluarga/paman.jpg",
+					"pilihan": ["Kakek", "Ayah", "Paman", "Nenek"],
+					"jawaban": "Paman"
+				}
+			]
+		}
+	],
+	"Sulit": [
+		{
+			"judul": "Buah",
+			"data": [
+				{
+					"nomer": 1,
+					"gambar": "/asset/BuahSibi/jambu.png",
+					"pilihan": ["Jambu", "Duku", "Anggur", "Sawo"],
+					"jawaban": "Jambu"
+				},
+				{
+					"nomer": 2,
+					"gambar": "/asset/BuahSibi/kelapa.jpg",
+					"pilihan": ["Kelapa", "Duku", "Mangga", "Sawo"],
+					"jawaban": "Kelapa"
+				},
+				{
+					"nomer": 3,
+					"gambar": "/asset/BuahSibi/manggis.jpg",
+					"pilihan": ["Manggis", "Duku", "Pisang", "Sawo"],
+					"jawaban": "Manggis"
+				},
+				{
+					"nomer": 4,
+					"gambar": "/asset/BuahSibi/pisang.jpg",
+					"pilihan": ["Pisang", "Semangka", "Anggur", "Salak"],
+					"jawaban": "Pisang"
+				},
+				{
+					"nomer": 5,
+					"gambar": "/asset/BuahSibi/salak.jpg",
+					"pilihan": ["Salak", "Rambutan", "Alpukat", "Sawo"],
+					"jawaban": "Salak"
+				}
+			]
+		},
+		{
+			"judul": "Perasaan",
+			"data": [
+				{
+					"nomer": 1,
+					"gambar": "/asset/Perasaan/bahagia.png",
+					"pilihan": ["Bahagia", "Gembira", "Kecewa", "Sedih"],
+					"jawaban": "Bahagia"
+				},
+				{
+					"nomer": 2,
+					"gambar": "/asset/Perasaan/gembira.png",
+					"pilihan": ["Takut", "Gembira", "Kecewa", "Sedih"],
+					"jawaban": "Gembira"
+				},
+				{
+					"nomer": 3,
+					"gambar": "/asset/Perasaan/marah.png",
+					"pilihan": ["Takut", "Bingung", "Marah", "Sedih"],
+					"jawaban": "Marah"
+				},
+				{
+					"nomer": 4,
+					"gambar": "/asset/Perasaan/sedih.png",
+					"pilihan": ["Takut", "Kecewa", "Bingung", "Sedih"],
+					"jawaban": "Sedih"
+				},
+				{
+					"nomer": 5,
+					"gambar": "/asset/Perasaan/takut.png",
+					"pilihan": ["Bahagia", "Takut", "Kecewa", "Gembira"],
+					"jawaban": "Takut"
+				}
+			]
+		},
+		{
+			"judul": "Hari",
+			"data": [
+				{
+					"nomer": 1,
+					"gambar": "/asset/Hari/selasa.jpeg",
+					"pilihan": ["Selasa", "Kamis", "Sabtu", "Minggu"],
+					"jawaban": "Selasa"
+				},
+				{
+					"nomer": 2,
+					"gambar": "/asset/Hari/rabu.jpeg",
+					"pilihan": ["Rabu", "Kamis", "Senin", "Minggu"],
+					"jawaban": "Rabu"
+				},
+				{
+					"nomer": 3,
+					"gambar": "/asset/Hari/minggu.jpeg",
+					"pilihan": ["Jumat", "Kamis", "Sabtu", "Minggu"],
+					"jawaban": "Minggu"
+				},
+				{
+					"nomer": 4,
+					"gambar": "/asset/Hari/jumat.jpeg",
+					"pilihan": ["Jumat", "Kamis", "Sabtu", "Se;asa"],
+					"jawaban": "Jumat"
+				},
+				{
+					"nomer": 5,
+					"gambar": "/asset/Hari/kamis.jpeg",
+					"pilihan": ["Rabu", "Kamis", "Sabtu", "Minggu"],
+					"jawaban": "Kamis"
+				}
+			]
+		}
+	]
+}

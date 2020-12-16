@@ -17,4 +17,8 @@ Router.get('/editProfil', (req, res) => {
 	res.sendFile(path.resolve('public/editprofil.html'));
 });
 
+Router.get('/quiz/mudah/angka', (req, res) => {
+	res.sendFile(path.resolve('public/quiz.html'));
+});
+
 module.exports = Router;

@@ -1,0 +1,195 @@
+body {
+    background-color: #EAF1FF;
+    font-family: Rowdies;
+    margin: 0;
+    color: #1F3C88;
+}
+
+nav {
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 120px;
+
+}
+
+.brand {
+    font-size: 25px;
+    float: left;
+}
+
+nav ul li {
+    display: block;
+    float: right;
+}
+
+.username{
+    vertical-align: middle;
+}
+
+
+
+.profil{
+    padding: 7px;
+    float: right;
+}
+
+
+.menu3{
+    background-color: #ffffff;
+    position: relative;
+    z-index: 5;
+
+}
+
+nav ul li ul li{
+    width:100%;
+    height:30px;
+}
+.user { 
+    
+}
+
+.container{
+width: 1200px;
+overflow: hidden;
+margin: 0 auto;
+border:solid;
+border-radius: 10px;
+border-color: #FEFEFF;
+border-width: 5px;
+box-shadow: 2px 2px 2px#ADB2C0;
+}
+
+.progress{
+color:#69259c;
+display: block;
+}
+
+.progress li{
+    float:left;
+    display: block;
+    text-align: center;
+    margin-left: 15px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.progress h1{
+    text-align: center;
+    color: #1F3C88;
+}
+
+.angka1{
+    float: left;
+    margin-left: 200px;
+}
+
+.angka2{
+    float: left;
+    margin-left: 200px ;
+}
+
+.angka3{
+    float: left;
+    margin-left: 200px;
+    
+}
+
+.content{
+    text-align: center;
+    margin: 0;
+}
+
+.materi{
+    margin-bottom: 120px;
+    text-align: center;
+    display: flex;
+    margin-left: 36.5%;
+}
+.materi ul {
+
+}
+
+
+li{
+    list-style-type: none;
+}
+
+
+.angka-dasar{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.angka-menengah{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.angka-mahir{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+hr{
+    border:solid;
+    border-radius: 10px;
+    border-color: #FEFEFF;
+    border-width: 2px;
+    width: 1200px;
+    box-shadow: 2px 2px 2px #ADB2C0;
+}
+
+.menu1{
+    position: relative;
+    z-index: 2;
+}
+
+.menu2{
+    background-color: #ffffff;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*#circle {
+    width: 80px;
+    height: 80px;
+    background-color: #69259c ;
+    border-radius: 60px;
+    z-index: 1;
+    top: 0px;;
+}*/
+
+
+button{
+    margin-top: 20px;
+    margin-left: 23%;
+	border-radius: 10px;
+	width: 50%;
+	height: 50px;
+	color: #EAF1FF;
+    background-color: #69259c;
+    text-align: center;
+    font-family: Rowdies;
+}
+
+.gambar{
+    width: 100px;
+    height: 80px;
+    background-color: #69259C;
+    text-decoration: none;
+    border-radius:50% ;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #1F3C88 ;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: #EAF1FF;
+}
+
+

@@ -69,23 +69,21 @@ nav {
 }
 
 .pop-up {
-	margin-top: 100px;
+	padding: 10px;
+	margin-top: 30px;
+	width: 150px;
+	background-color: #fefeff;
 }
 
 .materi {
-	margin-bottom: 120px;
 	width: 50%;
+	margin-bottom: 120px;
 	margin: 0 auto;
 	display: flex;
 }
 
-li {
-	list-style-type: none;
-}
-
-.angka {
-	vertical-align: middle;
-	margin-right: 20px;
+.satu-materi {
+	margin-right: 60px;
 }
 
 hr {
@@ -97,33 +95,14 @@ hr {
 	box-shadow: 2px 2px 2px #adb2c0;
 }
 
-.menu1 {
-	position: relative;
-	z-index: 2;
-}
-
-.menu2 {
-	background-color: #ffffff;
-}
-
 a {
 	text-decoration: none;
 }
 
-/*#circle {
-    width: 80px;
-    height: 80px;
-    background-color: #69259c ;
-    border-radius: 60px;
-    z-index: 1;
-    top: 0px;;
-}*/
-
 button {
 	margin-top: 20px;
-	margin-left: 23%;
 	border-radius: 10px;
-	width: 50%;
+	width: 70%;
 	height: 50px;
 	color: #eaf1ff;
 	background-color: #69259c;
@@ -138,6 +117,11 @@ button {
 	text-decoration: none;
 	border-radius: 50%;
 	padding-top: 20px;
+}
+
+.angka-abjad {
+	margin-top: 12px;
+	width: 80px;
 }
 
 footer {

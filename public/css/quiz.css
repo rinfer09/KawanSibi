@@ -34,7 +34,7 @@ body {
 	margin: 10%;
 	padding: 10% 7%;
 	border-radius: 10px;
-	border: solid 3px #ad0d18;
+	border: solid 5px #ad0d18;
 }
 
 .jawab {
@@ -122,4 +122,9 @@ body {
 
 .blur {
 	filter: blur(8px);
+}
+
+.klik-jawab {
+	background-color: #69259c;
+	color: #ffffff;
 }

@@ -1,157 +1,114 @@
 body {
-    background-color: #EAF1FF;
-    font-family: Rowdies;
-    margin: 0;
-    color: #1F3C88;
+	background-color: #eaf1ff;
+	font-family: Rowdies;
+	margin: 0;
+	color: #1f3c88;
 }
 
 nav {
-    padding: 30px 30px 30px 30px;
-    margin-bottom: 120px;
-
+	padding: 30px;
+	margin-bottom: 120px;
 }
 
 .brand {
-    font-size: 25px;
-    float: left;
+	font-size: 25px;
+	float: left;
 }
 
-nav ul li {
-    display: block;
-    float: right;
+.profil {
+	margin-top: 20px;
+	float: right;
 }
 
-.username{
-    vertical-align: middle;
+.profil .user-image {
+	padding: 12px;
+	background-color: #1f3c88;
+	color: #ffffff;
+	border-radius: 50%;
+}
+.menu3 {
+	display: block;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 5px;
+	margin-top: 20px;
 }
 
-
-
-.profil{
-    padding: 7px;
-    float: right;
+.container {
+	border: solid;
+	border-radius: 10px;
+	border-color: #fefeff;
+	border-width: 5px;
+	box-shadow: 2px 2px 2px#ADB2C0;
 }
 
-
-.menu3{
-    background-color: #ffffff;
-    position: relative;
-    z-index: 5;
-
+.progress {
+	color: #69259c;
 }
 
-nav ul li ul li{
-    width:100%;
-    height:30px;
-}
-.user { 
-    
-}
-
-.container{
-width: 1200px;
-overflow: hidden;
-margin: 0 auto;
-border:solid;
-border-radius: 10px;
-border-color: #FEFEFF;
-border-width: 5px;
-box-shadow: 2px 2px 2px#ADB2C0;
+.progres-container {
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	padding: 5%;
 }
 
-.progress{
-color:#69259c;
-display: block;
+.progres {
+	margin-right: 20%;
+	display: flex;
 }
 
-.progress li{
-    float:left;
-    display: block;
-    text-align: center;
-    margin-left: 15px;
-    vertical-align: middle;
-    font-size: 18px;
+.progres div {
+	margin-left: 15px;
 }
 
-.progress h1{
-    text-align: center;
-    color: #1F3C88;
+.content {
+	text-align: center;
+	margin: 0;
+	padding: 0 5%;
 }
 
-.angka1{
-    float: left;
-    margin-left: 200px;
+.pop-up {
+	margin-top: 100px;
 }
 
-.angka2{
-    float: left;
-    margin-left: 200px ;
+.materi {
+	margin-bottom: 120px;
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
 }
 
-.angka3{
-    float: left;
-    margin-left: 200px;
-    
+li {
+	list-style-type: none;
 }
 
-.content{
-    text-align: center;
-    margin: 0;
+.angka {
+	vertical-align: middle;
+	margin-right: 20px;
 }
 
-.materi{
-    margin-bottom: 120px;
-    text-align: center;
-    display: flex;
-    margin-left: 36.5%;
-}
-.materi ul {
+hr {
+	border: solid;
+	border-radius: 10px;
+	border-color: #fefeff;
+	border-width: 2px;
 
-}
-
-
-li{
-    list-style-type: none;
+	box-shadow: 2px 2px 2px #adb2c0;
 }
 
-
-.angka-dasar{
-    vertical-align: middle;
-    margin-right: 20px;
+.menu1 {
+	position: relative;
+	z-index: 2;
 }
 
-.angka-menengah{
-    vertical-align: middle;
-    margin-right: 20px;
+.menu2 {
+	background-color: #ffffff;
 }
 
-.angka-mahir{
-    vertical-align: middle;
-    margin-right: 20px;
+a {
+	text-decoration: none;
 }
-hr{
-    border:solid;
-    border-radius: 10px;
-    border-color: #FEFEFF;
-    border-width: 2px;
-    width: 1200px;
-    box-shadow: 2px 2px 2px #ADB2C0;
-}
-
-.menu1{
-    position: relative;
-    z-index: 2;
-}
-
-.menu2{
-    background-color: #ffffff;
-
-}
-
-a{
-    text-decoration: none;
-}
-
 
 /*#circle {
     width: 80px;
@@ -162,34 +119,31 @@ a{
     top: 0px;;
 }*/
 
-
-button{
-    margin-top: 20px;
-    margin-left: 23%;
+button {
+	margin-top: 20px;
+	margin-left: 23%;
 	border-radius: 10px;
 	width: 50%;
 	height: 50px;
-	color: #EAF1FF;
-    background-color: #69259c;
-    text-align: center;
-    font-family: Rowdies;
+	color: #eaf1ff;
+	background-color: #69259c;
+	text-align: center;
+	font-family: Rowdies;
 }
 
-.gambar{
-    width: 100px;
-    height: 80px;
-    background-color: #69259C;
-    text-decoration: none;
-    border-radius:50% ;
-    padding-top: 20px;
+.gambar {
+	width: 100px;
+	height: 80px;
+	background-color: #69259c;
+	text-decoration: none;
+	border-radius: 50%;
+	padding-top: 20px;
 }
 
 footer {
-    background-color: #1F3C88 ;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-    color: #EAF1FF;
+	background-color: #1f3c88;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	color: #eaf1ff;
 }
-
-

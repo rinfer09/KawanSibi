@@ -1,5 +1,6 @@
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
 body {
 	margin: 0;
 	font-size: 30px;
@@ -14,18 +15,11 @@ a {
 }
 
 .container {
-	/* nahh container ini jadi dasarnya 2 box itu */
-	/* nahh gue bikin tuh ga full satu monitor, tapi sekotak doang aja gitu */
-	/* karena menurut gue kalo full satu website itu bakal jelek */
-	/* soalanya kan cuma buat edit password doang */
-	/* seenaknya kelompok lo aja dah, diskusiin dulu */
 	width: 1350px auto;
 	height: 1055px;
 	margin: 0 auto;
-	/* tapi ini jadi warna dasar di box kanan, jadi kalo mau ganti ya silakan */
 	background-color: #ffffff;
 	border: 0 solid;
-	/* ini gue kasih border biar lo kebayang aja luasnya semana */
 	display: flex;
 }
 
@@ -89,14 +83,13 @@ input::placeholder {
 }
 
 button {
-	position: absolute;
+	float: right;
+	margin-right: 30px;
 	border: none;
 	border-radius: 20px;
 	box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
 	width: 150px;
 	height: 50px;
-	left: 1100px;
-	top: 970px;
 	color: #ffffff;
 	background-color: #1f3c88;
 	font-size: 20px;

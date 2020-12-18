@@ -21,7 +21,7 @@ nav {
 /* content */
 
 form {
-	margin: 30px 0 20px;
+	margin: 10px 0 20px;
 }
 
 input {
@@ -72,10 +72,6 @@ form {
 	font-size: 18px;
 }
 
-.lupa-sandi {
-	margin-bottom: 10px;
-}
-
 .register {
 	display: inline-flex;
 }
@@ -118,4 +114,13 @@ img {
 	z-index: -1;
 	top: 0;
 	right: 0;
+}
+
+.pesan-error {
+	font-size: 16px;
+	background-color: #de8c8d;
+	color: #a10608;
+	padding: 20px;
+	border-radius: 5px;
+	margin-top: 10px;
 }

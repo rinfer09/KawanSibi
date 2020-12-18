@@ -5,6 +5,7 @@ const passport = require('passport');
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json());
 
 require('./koneksi');
 require('./config/passport')(passport);

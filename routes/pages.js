@@ -17,8 +17,21 @@ Router.get('/editProfil', (req, res) => {
 	res.sendFile(path.resolve('public/editprofil.html'));
 });
 
+Router.get('/editPassword', (req, res) => {
+	res.sendFile(path.resolve('public/editpass.html'));
+});
+
+// dashboard
+Router.get('/dashboard', (req, res) => {
+	res.sendFile(path.resolve('public/dashboard.html'));
+});
+
+// quiz
+
 Router.get('/quiz/mudah/angka', (req, res) => {
 	res.sendFile(path.resolve('public/quiz.html'));
 });
+
+Router.get('/quiz/sulit/perasan');
 
 module.exports = Router;

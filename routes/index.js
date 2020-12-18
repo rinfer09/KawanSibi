@@ -6,6 +6,9 @@ Router.use('/', pages);
 const editPassword = require('./editPassword');
 Router.use('/api/editPassword', editPassword);
 
+const progress = require('./progress');
+Router.use('/api/progress', progress);
+
 const login = require('./login');
 Router.use('/api/login', login);
 

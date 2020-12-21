@@ -1,0 +1,143 @@
+/* css reset */
+@import 'reset.css';
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+body{
+    font-family: Rowdies;
+    background-color: #69259C;
+    overflow-x: hidden;
+}
+
+.bc{
+    position: absolute;
+    z-index: -5;
+}
+
+.header{
+    height: 80px;
+    /*border-bottom: 2px solid #001e2e;*/
+}
+
+.header-logo{
+    float:left;
+    padding: 20px 40px;
+    font-size: 36px;
+}
+
+.btn-close{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Rowdies;
+    font-size: 36px;
+    float:right;
+    color:white;
+    background-color: transparent;
+    margin-right:40px;
+    margin-top:20px;
+    border:0px;
+}
+
+.header-logo{
+    text-align: left;
+    color: white;
+}
+
+.header-close{
+    text-align: right;
+    color: #84ACF2;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    right:0px;
+    position: absolute;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    padding-bottom:25px;
+    font-size: 36px;
+    /*border-bottom: 2px solid #001e2e;*/
+}
+
+.contents{
+    margin: 50px 63px;
+    width: 1300px;
+    height: 350px;
+    align-content: center;
+    /*border-right: 2px solid #001e2e;
+    border-left: 2px solid #001e2e;*/
+}
+
+.contents-item{
+    height: 225px;
+    width: 150px;
+    float:left;
+    margin-right:55px;
+    background-color: white;
+    border: 4px solid #EAF1FF;
+    border-radius: 7px;
+    left:50%;
+}
+
+.contents-item img{
+    width:111px;
+    height:177px;
+    padding-top:17%;
+    padding-left:17%;
+}
+
+.contents-item img:hover{
+    opacity:50%;
+    cursor: pointer;
+}
+
+.contents-item p{
+    font-size: 36px;
+    text-align: center;
+    color:white;
+    margin-top:50px;
+}
+
+.btn-next{
+    width: 80px;
+    height: 80px;
+    float:right;
+    background-color: transparent;
+    margin-right:40px;
+    margin-bottom:40px; 
+    border:0px;
+}
+
+button:hover{
+    opacity:50%;
+    cursor:pointer;
+}
+
+.deskripsi{
+    background: #FFFFFF;
+    border: 1px solid #EAF1FF;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 5;
+    left: 27%;
+    top: 160px;
+    display: flex;
+}
+
+.deskripsi-img {
+    width:95px;
+    height:175px;
+}
+
+.deskripsi-close{
+    text-align: right;
+    color: #69259C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    right:0px;
+    position: absolute;
+    border:none;
+    background-color: transparent;
+    margin-top:15px;
+    margin-right:15px;
+    font-family: 'rowdies';
+    font-size: 24px;
+}

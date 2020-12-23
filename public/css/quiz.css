@@ -74,7 +74,7 @@ body {
 	cursor: pointer;
 }
 
-.periksa {
+#periksa {
 	font-size: 20px;
 	font-family: 'Rowdies', cursive;
 	color: #eaf1ff;
@@ -86,7 +86,7 @@ body {
 	border-radius: 10px;
 }
 
-.periksa:hover {
+#periksa:hover {
 	opacity: 0.9;
 	cursor: pointer;
 }
@@ -94,14 +94,11 @@ body {
 /* hasil */
 
 .hasil {
-	color: #ffffff;
-	border-radius: 3%;
+	width: 100%;
 	text-align: center;
 	position: fixed;
-	background-color: #69259c;
-	padding: 7% 10% 0;
-	left: 30%;
 	top: 20%;
+	z-index: 999;
 }
 
 .hasil img {
@@ -127,4 +124,14 @@ body {
 .klik-jawab {
 	background-color: #69259c;
 	color: #ffffff;
+}
+
+.kotak {
+	width: 300px;
+	margin: 0 auto;
+	background-color: #69259c;
+	padding: 7% 10% 0;
+	color: #ffffff;
+	border-radius: 3%;
+	text-align: center;
 }

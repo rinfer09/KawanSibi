@@ -137,11 +137,13 @@ button:hover{
     left: 27%;
     top: 160px;
     display: flex;
+    left:25%;
 }
 
 .deskripsi-img {
     width:95px;
     height:175px;
+    padding: 50px;
 }
 
 .deskripsi-close{
@@ -154,6 +156,21 @@ button:hover{
     background-color: transparent;
     margin-top:15px;
     margin-right:15px;
-    font-family: 'rowdies';
+    font-weight: 900;
     font-size: 24px;
 }
+
+.deskripsi-text h1{
+    padding-top: 65px;
+    font-size:24px;
+}
+
+.deskripsi-text p{
+    color: #919197;
+    font-size:20px;
+    width:433px;
+    padding-top:25px;
+    padding-right:50px;
+    line-height: 30px;
+}
+

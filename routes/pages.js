@@ -31,6 +31,11 @@ Router.get('/dashboard', (req, res) => {
 Router.get('/quiz/mudah/angka', (req, res) => {
 	res.sendFile(path.resolve('public/quiz.html'));
 });
+// ujian
+
+Router.get('/ujian', (req, res) => {
+	res.sendFile(path.resolve('public/Ujian.html'));
+});
 
 Router.get('/quiz/sulit/perasan');
 

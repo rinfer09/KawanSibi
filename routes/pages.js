@@ -39,4 +39,9 @@ Router.get('/ujian', (req, res) => {
 
 Router.get('/quiz/sulit/perasan');
 
+// score
+Router.get('/score', (req, res) => {
+	res.sendFile(path.resolve('public/score.html'));
+});
+
 module.exports = Router;

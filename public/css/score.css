@@ -1,0 +1,48 @@
+/* css reset */
+@import 'reset.css';
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+body {
+	background-color: #1f3c88;
+	font-size: 24px;
+	font-family: 'Rowdies', cursive;
+	color: #fff;
+}
+
+.margin-h {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.kelulusan {
+	margin-bottom: 30px;
+}
+
+p span {
+	color: #84acf2;
+}
+
+.container {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.dashboard-btn {
+	background-color: #84acf2;
+	color: #fff;
+	font-family: 'Rowdies', cursive;
+	font-size: 24px;
+	border: none;
+	width: 180px;
+	margin: 0 auto;
+	display: flex;
+	padding: 20px 9px;
+	border-radius: 40px;
+	text-decoration: none;
+}
+
+.dashboard-btn:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}

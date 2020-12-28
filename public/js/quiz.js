@@ -44,7 +44,7 @@ fetch('/data/quiz.json')
 
 // menampilkan soal
 
-function displayData(data) {
+const displayData = (data) => {
 	// update ke database bila soal sudah tidak ada lagi
 	if (data.data[nomer] === undefined) {
 		sendData();
@@ -73,8 +73,9 @@ function displayData(data) {
 	answeringQuestion();
 
 	// soal selanjutnya
-	const nextButton = document.querySelector('#periksa');
-	nextButton.addEventListener('click', () => {
+	const nextButton = document.getElementById('periksa');
+	nextButton.onclick = () => {
+		console.log('soal');
 		const checkAnswer = userAnswer == soal.jawaban;
 		if (userAnswer !== '') {
 			displayTrueFalse(checkAnswer, soal.jawaban);
@@ -82,9 +83,13 @@ function displayData(data) {
 			const gambar = document.querySelector('#answer-img');
 			const quote = document.querySelector('#quote');
 			gambar.src = '/asset/icon/score/cross.svg';
-			quote.textContent = 'Jawaban kamu salah';
+			quote.textContent = 'Jawaban kamu kosong';
+			const hasilElement = document.querySelector('#hasil');
+			hasilElement.classList.remove('hide');
 		}
-	});
+	};
+
+	console.log('soaaaaal');
 
 	const selanjutnya = document.querySelector('#selanjutnya');
 
@@ -103,10 +108,10 @@ function displayData(data) {
 			displayData(data, nomer);
 		}
 	});
-}
+};
 
 // menampilkan popup benar dan salah
-function displayTrueFalse(check, answer) {
+const displayTrueFalse = (check, answer) => {
 	const imageHasilElement = document.querySelector('#answer-img');
 	const quoteElement = document.querySelector('#quote');
 	const answerElement = document.querySelector('#answer');
@@ -125,10 +130,9 @@ function displayTrueFalse(check, answer) {
 	hasilElement.classList.remove('hide');
 
 	const utamaElement = document.querySelector('#utama');
-	utamaElement.classList.add('blur');
-}
+};
 
-function answeringQuestion() {
+const answeringQuestion = () => {
 	const pilihanBox = document.querySelectorAll('.jawab');
 	pilihanBox.forEach((element) => {
 		element.addEventListener('click', (e) => {
@@ -139,18 +143,21 @@ function answeringQuestion() {
 			}
 		});
 	});
-}
+};
 
-function removeAnswer() {
+const removeAnswer = () => {
 	const box = document.querySelectorAll('.jawab');
 	box.forEach((el) => {
 		for (let item of el.children) {
 			item.classList.remove('klik-jawab');
 		}
 	});
-}
+};
 
-function sendData() {
+const sendData = () => {
+	console.log(hasil);
+	window.localStorage.setItem('jmlSoal', '5');
+	window.localStorage.setItem('benar', (hasil / 20).toString());
 	fetch('/api/progress', {
 		method: 'PATCH',
 		body: JSON.stringify({
@@ -166,4 +173,4 @@ function sendData() {
 			console.log(data);
 			window.location.href = '/score';
 		});
-}
+};

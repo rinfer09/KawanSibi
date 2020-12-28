@@ -167,7 +167,7 @@
 					"nomer": 4,
 					"gambar": "/asset/Pekerjaan/pegawai.jpg",
 					"pilihan": ["Pegawai", "Tentara", "Murid", "Pilot"],
-					"jawaban": "C"
+					"jawaban": "Pegawai"
 				},
 				{
 					"nomer": 5,
@@ -199,10 +199,10 @@
 					"jawaban": "Ibu"
 				},
 				{
-					"nomer": 4,
-					"gambar": "/asset/Keluarga/adik.jpg",
-					"pilihan": ["Anak", "Ayah", "Adik", "Kakek"],
-					"jawaban": "Adik"
+					"nomer": 2,
+					"gambar": "/asset/Pekerjaan/guru.jpg",
+					"pilihan": ["Guru", "Dokter", "Murid", "Pilot"],
+					"jawaban": "Guru"
 				},
 				{
 					"nomer": 5,

@@ -36,6 +36,7 @@ a:hover {
 	background-color: #1f3c88;
 	color: #ffffff;
 	border-radius: 50%;
+	cursor: pointer;
 }
 .menu3 {
 	display: block;
@@ -43,6 +44,7 @@ a:hover {
 	padding: 20px;
 	border-radius: 5px;
 	margin-top: 20px;
+	
 }
 
 .container {
@@ -91,10 +93,12 @@ a:hover {
 }
 
 .pop-up {
-	padding: 10px;
+	padding: 7px;
 	margin-top: 30px;
 	width: 150px;
 	background-color: #fefeff;
+	overflow: auto;
+	
 }
 
 .materi {
@@ -144,6 +148,32 @@ button {
 .angka-abjad {
 	margin-top: 12px;
 	width: 80px;
+}
+
+.heading4{
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.lihatmat {
+	color: #B2BEDD;
+}
+
+.latihan {
+	color: #69259C;
+	float: right;	
+}
+
+.kiri {
+	text-align: left;
+}
+
+.hide {
+	display: none;
+}
+
+.invisible {
+	visibility: hidden;
 }
 
 footer {

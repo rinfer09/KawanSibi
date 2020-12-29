@@ -3,53 +3,67 @@
     <head>
         <meta charset="utf-8">
         <title>KawanSibi | Materi Mahir</title>
-        <link rel="stylesheet" href="css/Materi-mahir-buah-1.css">
+        <link rel="stylesheet" href="/css/Materi-mahir-buah-1.css">
     </head>
 
     <body>
-        <img class="bc" src="asset/background/bc-mahir.png">
-        <div class="header">
-            <h1 class="header-logo">KawanSiBi</h1>
-            <button class="btn-close">X</button>
+        <div class="main" id="main">     
+            <img class="bc" src="/asset/background/bc-mahir.png">
+            <div class="header">
+                <h1 class="header-logo">KawanSiBi</h1>
+                <a class="btn-close" href="/dashboard">X</a>
+            </div>
+
+            <div class="title">Buah-buahan</div>
+
+            <div class="contents">
+                <div class="contents-item">
+                    <img src="/asset/BuahSibi/alpukat.png">
+                    <p>Alpukat</p>
+                </div>
+                <div class="contents-item">
+                    <img src="/asset/BuahSibi/anggur.png">
+                    <p>Anggur</p>
+                </div>
+                <div class="contents-item">
+                    <img src="/asset/BuahSibi/apel.png">
+                    <p>Apel</p>
+                </div>
+                <div class="contents-item">
+                    <img src="/asset/BuahSibi/duku.png">
+                    <p>Duku</p>
+                </div>
+                <div class="bawah">
+                    <div class="contents-item">
+                        <img src="/asset/BuahSibi/nanas.png">
+                        <p>Nanas</p>
+                    </div>
+                    <div class="contents-item">
+                        <img src="/asset/BuahSibi/pisang.png">
+                        <p>Pisang</p>
+                    </div>
+                    <div class="contents-item">
+                        <img src="/asset/BuahSibi/salak.png">
+                        <p>Salak</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="title">Buah-buahan</div>
+        <a class="btn-next" href="/materi/mahir/buah/2">
+            <img src="/asset/icon/selanjutnya.svg">
+        </a>
 
-        <div class="contents">
-            <div class="contents-item">
-                <img src="asset/BuahSibi/alpukat.png">
-                <p>Alpukat</p>
-            </div>
-            <div class="contents-item">
-                <img src="asset/BuahSibi/anggur.png">
-                <p>Anggur</p>
-            </div>
-            <div class="contents-item">
-                <img src="asset/BuahSibi/apel.png">
-                <p>Apel</p>
-            </div>
-            <div class="contents-item">
-                <img src="asset/BuahSibi/duku.png">
-                <p>Duku</p>
-            </div>
-            <div class="bawah">
-            <div class="contents-item">
-                <img src="asset/BuahSibi/nanas.png">
-                <p>Nanas</p>
-            </div>
-            <div class="contents-item">
-                <img src="asset/BuahSibi/pisang.png">
-                <p>Pisang</p>
-            </div>
-            <div class="contents-item">
-                <img src="asset/BuahSibi/salak.png">
-                <p>Salak</p>
+        <div class="deskripsi hide">
+            <button class="deskripsi-close">X</button>
+            <img class="deskripsi-img" src="/asset/Keluarga/kakek.jpg">
+            <div class="deskripsi-text">
+                <h1 id="judul">Kakek</h1>
+                <p id="keterangan">Tangan kanan B yang telungkup mengarah ke depan di hadapan dada, di gerakan ke atas, sampai setinggi bahu</p>
             </div>
         </div>
-        </div>
 
-        <button class="btn-next">
-            <img src="asset/icon/selanjutnya.svg">
-        </button>
+    <script src="/js/materi-mahir.js"></script>  
     </body>
+    
 </html>

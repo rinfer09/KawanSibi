@@ -16,13 +16,13 @@ body{
 
 .header{
     height: 80px;
-    /*border-bottom: 2px solid #001e2e;*/
 }
 
 .header-logo{
     float:left;
     padding: 20px 40px;
     font-size: 36px;
+    color: white;
 }
 
 .btn-close{
@@ -35,11 +35,8 @@ body{
     margin-right:40px;
     margin-top:20px;
     border:0px;
-}
-
-.header-logo{
-    text-align: left;
-    color: white;
+    font-weight: 800;
+    text-decoration: none;
 }
 
 .header-close{
@@ -56,7 +53,6 @@ body{
     padding-bottom:25px;
     padding-top:25px;
     font-size: 36px;
-    /*border-bottom: 2px solid #001e2e;*/
 }
 
 .contents{
@@ -64,8 +60,6 @@ body{
     width: 1300px;
     height: 300px;
     align-content: center;
-    /*border-right: 2px solid #001e2e;
-    border-left: 2px solid #001e2e;*/
 }
 
 .contents-item{
@@ -101,13 +95,13 @@ body{
 .btn-start{
     width: 200px;
     height: 70px;
-    background: #84ACF2;
+    background: #EAF1FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 100px;
     font-family: Rowdies;
-    font-size: 20px;
+    font-size: 22px;
     float:right;
-    color: #ffffff;
+    color: #69259C;
     margin-right:40px;
     margin-bottom:40px;
 }
@@ -120,7 +114,6 @@ body{
     margin-left:40px;
     margin-bottom:40px;
     border:0px;
-    cursor:pointer;
     transform: scaleX(-1);
 }
 
@@ -138,11 +131,13 @@ button:hover{
     left: 27%;
     top: 160px;
     display: flex;
+    left:25%;
 }
 
 .deskripsi-img {
-    width:95px;
-    height:175px;
+    width:198px;
+    height:158px;
+    padding: 50px;
 }
 
 .deskripsi-close{
@@ -155,6 +150,30 @@ button:hover{
     background-color: transparent;
     margin-top:15px;
     margin-right:15px;
-    font-family: 'rowdies';
+    font-weight: 900;
     font-size: 24px;
+}
+
+.deskripsi-text h1{
+    padding-top: 65px;
+    font-size:24px;
+}
+
+.deskripsi-text p{
+    color: #919197;
+    font-size:20px;
+    width:433px;
+    padding-top:25px;
+    padding-bottom:65px;
+    padding-right:50px;
+    line-height: 30px;
+}
+
+.hide{
+    display:none;
+}
+
+.effect{
+    filter: blur(8px);
+    pointer-events: none;
 }

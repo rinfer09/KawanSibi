@@ -16,13 +16,13 @@ body{
 
 .header{
     height: 80px;
-    /*border-bottom: 2px solid #001e2e;*/
 }
 
-h1{
+.header-logo{
     float:left;
     padding: 20px 40px;
     font-size: 36px;
+    color: #1F3C88;
 }
 
 .btn-close{
@@ -30,16 +30,13 @@ h1{
     font-family: Rowdies;
     font-size: 36px;
     float:right;
-    color: #84ACF2;
+    color: #1F3C88;
     background-color: transparent;
     margin-right:40px;
     margin-top:20px;
     border:0px;
-}
-
-.header-logo{
-    text-align: left;
-    color: #1F3C88;
+    font-weight: 800;
+    text-decoration: none;
 }
 
 .header-close{
@@ -56,15 +53,12 @@ h1{
     padding-top:25px;
     padding-bottom:50px;
     font-size: 36px;
-    /*border-bottom: 2px solid #001e2e;*/
 }
 
 .contents{
     margin: 25px 100px;
     width:1150px;
     height: 350px;
-    /*border-right: 2px solid #001e2e;
-    border-left: 2px solid #001e2e;*/
 }
 
 .bawah{
@@ -98,13 +92,13 @@ h1{
 .btn-start{
     width: 200px;
     height: 70px;
-    background: #84ACF2;
+    background: #1F3C88;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 100px;
     font-family: Rowdies;
-    font-size: 20px;
+    font-size: 22px;
     float:right;
-    color: #ffffff;
+    color: #EAF1FF;
     margin-right:40px;
     margin-bottom:40px;
 }

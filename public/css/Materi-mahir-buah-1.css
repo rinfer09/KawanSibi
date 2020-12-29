@@ -16,10 +16,9 @@ body{
 
 .header{
     height: 80px;
-    /*border-bottom: 2px solid #001e2e;*/
-}
+}   
 
-h1{
+.header-logo{
     float:left;
     padding: 20px 40px;
     font-size: 36px;
@@ -27,15 +26,16 @@ h1{
 
 .btn-close{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Rowdies;
     font-size: 36px;
     float:right;
     color:white;
     background-color: transparent;
-    margin-right:40px;
-    margin-top:20px;
+    margin-top: 20px;
+    margin-right: 40px;
     border:0px;
     cursor:pointer;
+    font-weight: 800;
+    text-decoration: none;
 }
 
 .header-logo{
@@ -43,20 +43,11 @@ h1{
     color: white;
 }
 
-.header-close{
-    text-align: right;
-    color: #84ACF2;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    right:0px;
-    position: absolute;
-}
-
 .title{
     text-align: center;
     color: white;
     padding-bottom:25px;
     font-size: 36px;
-    /*border-bottom: 2px solid #001e2e;*/
 }
 
 .contents{
@@ -65,8 +56,6 @@ h1{
     height: 375px;
     align-content: center;
     padding-left: 4%;
-    /*border-right: 2px solid #001e2e;
-    border-left: 2px solid #001e2e;*/
 }
 
 .contents-item img:hover{
@@ -119,4 +108,61 @@ h1{
 
 button:hover{
     opacity:50%;
+}
+
+.deskripsi{
+    background: #FFFFFF;
+    border: 1px solid #EAF1FF;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 5;
+    top: 160px;
+    display: flex;
+    left:20%;
+}
+
+.deskripsi-img {
+    width:235px;
+    height:140px;
+    padding: 50px;
+}
+
+.deskripsi-close{
+    text-align: right;
+    color: #69259C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    right:0px;
+    position: absolute;
+    border:none;
+    background-color: transparent;
+    margin-top:15px;
+    margin-right:15px;
+    font-weight: 900;
+    font-size: 24px;
+    cursor:pointer;
+}
+
+.deskripsi-text h1{
+    padding-top: 65px;
+    font-size:24px;
+    width:433px;
+}
+
+.deskripsi-text p{
+    color: #919197;
+    font-size:20px;
+    width:433px;
+    padding-top:25px;
+    padding-bottom:65px;
+    padding-right:50px;
+    line-height: 30px;
+}
+
+.hide{
+    display:none;
+}
+
+.effect{
+    filter: blur(8px);
+    pointer-events: none;
 }

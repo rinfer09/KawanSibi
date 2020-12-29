@@ -2,18 +2,18 @@ const url = window.location.href.split('/');
 const materi = url[url.length - 2];
 const page = url[url.length - 1];
 
-fetch('/data/materi-menengah.json')
+fetch('/data/materi-mahir.json')
     .then(rest => rest.json())
     .then (data => {
         switch(materi){
-            case 'tempat':
-                displayData(data.materiMenengah[0]);
+            case 'buah':
+                displayData(data.materiMahir[0]);
                 break;
-            case 'pekerjaan':
-                displayData(data.materiMenengah[1]);
+            case 'perasaan':
+                displayData(data.materiMahir[1]);
                 break;
-            case 'keluarga':
-                displayData(data.materiMenengah[2]);
+            case 'hari':
+                displayData(data.materiMahir[2]);
                 break;
         }
     })
@@ -27,12 +27,11 @@ function displayData(check) {
     const tittleElement = document.querySelector('#judul');
     const descElement = document.querySelector('#keterangan');
 
-    if (page == '1'){
+    if(page == "1"){
         for(let i=0; i<imageElement.length; i++){
             imageElement[i].onclick = function (){
-                
                 descriptionELement.classList.remove('hide'); 
-    
+                
                 imgElement.src = data.satu[i].gambar;
                 tittleElement.textContent = data.satu[i].makna;
                 descElement.textContent = data.satu[i].deskripsi;
@@ -45,13 +44,19 @@ function displayData(check) {
     else{
         for(let i=0; i<imageElement.length; i++){
             imageElement[i].onclick = function (){
-                
                 descriptionELement.classList.remove('hide'); 
+                if(this.id == "kelapa"){
+                    imgElement.classList.add("coconut");
+                }
+
+                else{
+                    imgElement.classList.remove("coconut");
+                }
                 
                 imgElement.src = data.dua[i].gambar;
                 tittleElement.textContent = data.dua[i].makna;
                 descElement.textContent = data.dua[i].deskripsi;
-
+                
                 mainElement.classList.add('effect');
             }
         }
@@ -62,5 +67,5 @@ function displayData(check) {
         descriptionELement.classList.add('hide'); 
 
         mainElement.classList.remove('effect');
-    }
+    }    
 }

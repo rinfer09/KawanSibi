@@ -1,0 +1,171 @@
+{
+    "materiMenengah": [
+        {
+            "judul": "Tempat",
+            "data": {
+                "satu" : [
+                    {
+                        "gambar": "/asset/Tempat/pasar.jpg",
+                        "makna": "Pasar",
+                        "deskripsi":"Tangan kanan dan kiri O yang mendatar berhadapan di depan dada digerakan mendatar ke depan bolak balik dengan ibu jari digesekan pada ujung-ujung jari lainnya."
+                    },
+                    {
+                        "gambar":"/asset/Tempat/kolam.jpg",
+                        "makna":"Kolam",
+                        "deskripsi":"Tangan kanan B yang telungkup mengarah ke kiri di samping tangan kiri L yang telungkup mengarah ke depan di hadapan dada, jarinya digetarkan."
+                    },
+                    {
+                        "gambar":"/asset/Tempat/sekolah.jpg",
+                        "makna":"Sekolah",
+                        "deskripsi":"Tangan kanan B yang telungkup menyerong ke kiri, ditepukkan pada telapak tangan kiri B yang telentang mengarah ke kanan di depan badan dua kali."
+                    },
+                    {
+                        "gambar":"/asset/Tempat/rumah.jpg",
+                        "makna":"Rumah",
+                        "deskripsi":"Tangan kanan dan kiri B yang condong dengan jari-jari bertemu di depan dada, digerakan  ke bawah samping lalu lurus ke bawah."
+                    },
+                    {
+                        "gambar":"/asset/Tempat/bank.jpg",
+                        "makna":"Bank",
+                        "deskripsi":"Telapak tangan kanan B yangcondong ke kiri menghadap pengisyarat, disentuhkan pada punggung tangan kiri A yang tegak menghadap pengisyarat di depan dada."
+                    },
+                    {
+                        "gambar":"/asset/Tempat/tempat.jpg",
+                        "makna":"Tempat",
+                        "deskripsi":"Tangan kanan dan kiri T yang mendatar berhadapan di depan dada dengan ruas telunjuk bersentuhan, digerakan melingkar berlawanan arah ke depan samping."
+                    }
+                ],
+                "dua" : [      
+                    {
+                        "gambar": "/asset/Tempat/kelas.jpg",
+                        "makna": "Kelas",
+                        "deskripsi":"Tangan kanan dan kiri L yang tegak menghadap ke depan dengan ujung ibu jari bersentuhan di depan dada, masing-masing digerakan ke samping depan sehingga menghadap pengisyarat."
+                    },
+                    {
+                        "gambar":"/asset/Tempat/kebun.jpg",
+                        "makna":"Kebun",
+                        "deskripsi":"Tangan kanan dan kiri A yang tegak berhadapan di depan dada, masing-masing digerakan melingkar mendatar ke samping depan sehingga tegak menghadap ke depan."
+                    },
+                    {
+                        "gambar":"/asset/Tempat/taman.jpg",
+                        "makna":"Taman",
+                        "deskripsi":"Tangan kanan Y yang tegak menghadap ke kiri dengan pergelangan tangan bertumpu pada telapak tangan kiri B yang telentang mengarah ke kanan di depan dada diputar ke kanan depan sehingga menghadap ke depan."
+                    }
+                ]
+            }    
+        },
+        {
+            "judul": "Pekerjaan",
+            "data": {
+                "satu" : [
+                    {
+                        "gambar": "/asset/Pekerjaan/pilot.jpg",
+                        "makna": "Pilot",
+                        "deskripsi":"Tangan kanan dan kiri O yang mendatar berhadapan di depan dada, digerakan serempak ke depan dan kebelakang."
+                    },
+                    {
+                        "gambar":"/asset/Pekerjaan/tentara.jpg",
+                        "makna":"Tentara",
+                        "deskripsi":"Tangan kanan S yang condong telungkup mengarah ke kiri, diletakan di depan badan di bawah tangan kiri S yang condong ke kanan menghadap pengisyarat."
+                    },
+                    {
+                        "gambar":"/asset/Pekerjaan/polisi.jpg",
+                        "makna":"Polisi",
+                        "deskripsi":"Tangan kanan L yang mendatar mengarah ke depan, ditempelkan di dada kiri atas."
+                    },
+                    {
+                        "gambar":"/asset/Pekerjaan/buruh.jpg",
+                        "makna":"Buruh",
+                        "deskripsi":"Tangan kanan A yang mendatar menghadap ke kiri mengarah ke depan di hadapan badan, digerakan melengkung ke atas kanan."
+                    }
+                ],
+                "dua" : [    
+                    {
+                        "gambar":"/asset/Pekerjaan/dokter.jpg",
+                        "makna":"Dokter",
+                        "deskripsi":"Tangan kanan D yang tegak menghadap ke depan, diletakan di pergelangan tangan kiri B yang telentang sejajar pengisyarat di depan dada."
+                    },
+                    {
+                        "gambar":"/asset/Pekerjaan/pegawai.jpg",
+                        "makna":"Pegawai",
+                        "deskripsi":"Tangan kanan P yang telungkup condong menyerong ke kiri, diletakan pada pergelangan tangan kiri S yang telungkup menyerong ke kanan di depan dada."
+                    },
+                    {
+                        "gambar": "/asset/Pekerjaan/guru.jpg",
+                        "makna": "Guru",
+                        "deskripsi":"Tangan kanan G yang mendatar menghadap pengisyarat, diletakan di atas tangan kiri G yang mendatar menghadap pengisyarat di depan dada."
+                    },
+                    {
+                        "gambar":"/asset/Pekerjaan/murid.jpg",
+                        "makna":"Murid",
+                        "deskripsi":"Tangan kanan B yang telungkup mengarah ke depan di telapak tangan kiri B yang telentang mengarah ke kanan di depan dada, digerakan ke atas sambil dibalik berakhir dengan jari menguncup menempel di dahi."
+                    }
+                ]
+            }
+        },
+        {
+            "judul":"Keluarga",
+            "data":{
+                "satu" : [       
+                    {
+                        "gambar": "/asset/Keluarga/keluarga.jpg",
+                        "makna": "Keluarga",
+                        "deskripsi": "Tangan kanan dan kiri U yang tegak menghadap kedepan berdampingan di depan dada, di gerakan melingkar ke samping depan berlawanan arah sehingga keduanya tegak menghadap pengisyarat."
+                    },
+                    {
+                        "gambar":"/asset/Keluarga/kakek.jpg",
+                        "makna":"Kakek",
+                        "deskripsi":"Ujung jari tengah tangan kanan K yang tegak menghadap ke kiri, ditempelkan di jakun."
+                    },
+                    {
+                        "gambar":"/asset/Keluarga/nenek.jpg",
+                        "makna":"Nenek",
+                        "deskripsi":"Tangan kanan N yang tegak menghadap ke depan di belakang telinga kanan, di gerakan ke bawah sambil digoyangkan."
+                    },
+                    {
+                        "gambar":"/asset/Keluarga/ayah.jpg",
+                        "makna":"Ayah",
+                        "deskripsi":"Tangan kanan A yang tegak menghadap ke kiri dengan ujung ibu jari di goreskan pada bagian atas mulut di bawah hidung dari tengah ke kiri dan dari tengah ke kanan."
+                    },
+                    {
+                        "gambar":"/asset/Keluarga/bapak.jpg",
+                        "makna":"Bapak",
+                        "deskripsi":"Tangan kanan Da yang telungkup mengarahke kiri di goreskan pada bagian atas mulut di bawah hidung dari tengah ke kiri dan dari tengah ke kanan."
+                    },
+                    {
+                        "gambar":"/asset/Keluarga/ibu.jpg",
+                        "makna":"Ibu",
+                        "deskripsi":"Ujung jari tangan kanan U, yang tegak menghadap ke depan, ditempelkan di daun telinga kanan bawah."
+                    }
+                ],    
+                "dua" : [
+                    {
+                        "gambar": "/asset/Keluarga/paman.jpg",
+                        "makna": "Paman",
+                        "deskripsi":"Tangan kanan K yang tegak menghadap ke depan di samping pelipis kanan, digerakan kebawah sambil digoyang –goyangkan."
+                    },
+                    {
+                        "gambar":"/asset/Keluarga/bibi.jpg",
+                        "makna":"Bibi",
+                        "deskripsi":"Tanan kanan B yang tegak menghadap ke depan dengan ibu jari menempel di pipi kanan, di tarik ke bawah sambil digoyang -goyangkan."
+                    },
+                    {
+                        "gambar":"/asset/Keluarga/kakak.jpg",
+                        "makna":"Kakak",
+                        "deskripsi":"Tangan kanan B yang telungkup mengarah ke depan di hadapan dada, di gerakan ke atas, sampai setinggi bahu."
+                    },
+                    {
+                        "gambar":"/asset/Keluarga/adik.jpg",
+                        "makna":"Adik",
+                        "deskripsi":"Tangan kanan B telungkup menghadap ke depan di hadapan badan sebelah kanan, digerakan lurus ke bawah."
+                    },
+                    {
+                        "gambar": "/asset/Keluarga/anak.jpg",
+                        "makna": "Anak",
+                        "deskripsi":"Tangan kanan B telungkup menghadap ke depan di hadapan dada, digerakan melengkung ke atas kanan."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "materiMahir": [
+        {
+            "judul": "Buah-buahan",
+            "data": {
+                "satu" : [
+                    {
+                        "gambar": "/asset/BuahSibi/alpukat.png",
+                        "makna": "Alpukat",
+                        "deskripsi":"Tangan kanan A yang telungkup mengarah ke depan di samping tangan kiri B yang telentang mengarah ke depan dengan jari melengkung di depan dada, digerakkan ke belakang dua kali."
+                    },
+                    {
+                        "gambar":"/asset/BuahSibi/anggur.png",
+                        "makna":"Anggur",
+                        "deskripsi":"Tangan kanan 5 yang telungkup mengarah ke depan dengan jari-jari melengkung mengarah ke bawah di sela – sela jari tangan kiri 5 yang telungkup mengarah ke depan dihadapan dada, digerakkan ke arah pergelangan dua kali."
+                    },
+                    {
+                        "gambar":"/asset/BuahSibi/apel.png",
+                        "makna":"Apel",
+                        "deskripsi":"Tangan kanan X yang telungkup mengarah ke kiri dan menempel pada sudut pipi kanan, diputar ke atas depan."
+                    },
+                    {
+                        "gambar":"/asset/BuahSibi/duku.png",
+                        "makna":"Duku",
+                        "deskripsi":"Tangan kanan dan kiri yang menguncup mendatar menghadapi pengisyarat dengan ujung jari bersentuhan di depan dada, digerakkan ke samping bawah berlawanan arah sehingga terlentang dan berhimpit."
+                    },
+                    {
+                        "gambar":"/asset/BuahSibi/nanas.png",
+                        "makna":"Nanas",
+                        "deskripsi":"Tangan kanan N yang tegak menghadap ke depan menempel di pipi kanan, diputar ke atas depan."
+                    },
+                    {
+                        "gambar":"/asset/BuahSibi/pisang.png",
+                        "makna":"Pisang",
+                        "deskripsi":"Tangan kanan dengan jari-jari menguncup digerakkan dari ujung ke pangkal telunjuk dengan tangan kiri D yang tegak menghadap ke kanan di depan badan beberapa kali (gerakan mengupas pisang)."
+                    },
+                    {
+                        "gambar": "/asset/BuahSibi/salak.png",
+                        "makna": "Salak",
+                        "deskripsi":"Tangan kanan C yang telungkup dengan ibu jari menempel punggung ibu jari tangan kiri A yang mendatar menghadap ke kanan di depan dada, diusapkan ke depan dua kali."
+                    }
+                ],
+                "dua" : [
+                    {
+                        "gambar":"/asset/BuahSibi/semangka.png",
+                        "makna":"Semangka",
+                        "deskripsi":"Jari telunjuk dengan tangan kanan F yang telungkup mengarah ke depan, dijentikkan ke punggung tangan kiri S yang telungkup sejajar pengisyarat di depan dada."
+                    },
+                    {
+                        "gambar":"/asset/BuahSibi/jambu.png",
+                        "makna":"Jambu",
+                        "deskripsi":"Tangan kanan A yang tegak menghadap ke kiri dengan ibu jari menempel di bibir sebelah kanan, gerakkan lurus ke bawah."
+                    },
+                    {
+                        "gambar":"/asset/BuahSibi/rambutan.png",
+                        "makna":"Rambutan",
+                        "deskripsi":"Rambut: tangan kanan G digerakkan memegang rambut di bagian kanan kepala. An: tangan kanan A yang tegak menghadap ke depan di hadapan dada, digerakkan mendatar ke kanan. "
+                    },  
+                    {
+                        "gambar":"/asset/BuahSibi/kelapa.png",
+                        "makna":"Kelapa",
+                        "deskripsi":"Tangan kanan dan kiri 5 yang tegak dengan jari-jari melengkung dan ujungnya saling bersentuhan di depan dada, dikocok beberapa kali."
+                    },
+                    {
+                        "gambar": "/asset/BuahSibi/mangga.png",
+                        "makna": "Mangga",
+                        "deskripsi":"Tangan kanan U yang telungkup dan mengarah ke kiri di atas telapak tangan kiri C yang telentang mengarah ke depan di hadapan dada, digerakkan mendatar ke depan dua kali."
+                    },
+                    {
+                        "gambar":"/asset/BuahSibi/manggis.png",
+                        "makna":"Manggis",
+                        "deskripsi":"Telapak tangan kanan dan kiri 5 yang condong dengan jari-jari saling menyela rapat dan menempel punggung kedua tangan, digerakkan saling menekan."
+                    },
+                    {
+                        "gambar":"/asset/BuahSibi/sawo.png",
+                        "makna":"Sawo",
+                        "deskripsi":"Tangan kanan F yang tegak menghadap ke kiri dan menempel pada pipi kanan, digerakkan melengkung ke atas kanan berakhir dengan O yang tegak menghadap ke kiri."
+                    }
+                ]    
+            }
+        },
+        {
+            "judul": "Perasaan",
+            "data": {
+                "satu" : [
+                    {
+                        "gambar": "/asset/Perasaan/gembira.jpg",
+                        "makna": "Gembira",
+                        "deskripsi":"Jari-jari tangan kanan dan kiri 5 yang tegak menghadap pengisyarat di samping wajah, digetarkan."
+                    },
+                    {
+                        "gambar":"/asset/Perasaan/kecewa.jpg",
+                        "makna":"Kecewa",
+                        "deskripsi":"Tangan kanan K yang mendatar menghadap pengisyarat di depan dada, digerakan ke bawah berakhir dengan B yang telungkup mengarah ke kiri di depan badan."
+                    },
+                    {
+                        "gambar":"/asset/Perasaan/marah.jpg",
+                        "makna":"Marah",
+                        "deskripsi":"Tangan kanan dan kiri C yang mendatar menghadap pengisyarat dan menempel di dada, direnggangkan mendatar ke samping berlawanan arah dengan cepat dan kaku."
+                    },
+                    {
+                        "gambar":"/asset/Perasaan/bingung.jpg",
+                        "makna":"Bingung",
+                        "deskripsi":"Tangan kanan B yang tegak menghadap pengisyarat dengan ujung jari menempel di dahikanan, digerakan memutar ke atas kiri."
+                    }
+                ],
+                "dua" : [    
+                    {
+                        "gambar":"/asset/Perasaan/sedih.jpg",
+                        "makna":"Sedih",
+                        "deskripsi":"Tangan kanan dan kiri B yang tegak menempel pipi, digerakan perlahan-lahan ke bawah diikuti dengan kepala menundukdan berakhir dengan 5 yang terlantang di depan dada."
+                    },
+                    {
+                        "gambar":"/asset/Perasaan/bahagia.jpg",
+                        "makna":"Bahagia",
+                        "deskripsi":"Tanggan kanan dan kiri B yang mendatar menghadap pengisyarat di depan dada, digerakan ke atas duakali dengan ujung jari menyentuh dada."
+                    },
+                    {
+                        "gambar": "/asset/Perasaan/takut.jpg",
+                        "makna": "Takut",
+                        "deskripsi":"Tangan kanan dan kiri I yang mendatar menghadap pengisyarat menempel di dada, digerakan naik turun berganti-ganti."
+                    },
+                    {
+                        "gambar":"/asset/Perasaan/senang.jpg",
+                        "makna":"Senang",
+                        "deskripsi":"Tangan kanan B yang mendatar ke kiri di depan dada dioleskan ke dada arah ke atas dua kali."
+                    }
+                ]    
+            }
+        },
+        {
+            "judul":"Nama-namaHari",
+            "data":[
+                {
+                    "gambar": "/asset/Hari/senin.png",
+                    "makna": "Senin"
+                },
+                {
+                    "gambar":"/asset/Hari/selasa.png",
+                    "makna":"Selasa"
+                },
+                {
+                    "gambar":"/asset/Hari/rabu.png",
+                    "makna":"Rabu"
+                },
+                {
+                    "gambar":"/asset/Hari/kamis.png",
+                    "makna":"Kamis"
+                },
+                {
+                    "gambar":"/asset/Hari/jumat.png",
+                    "makna":"Jumat"
+                },
+                {
+                    "gambar":"/asset/Hari/sabtu.png",
+                    "makna":"Sabtu"
+                },
+                {
+                    "gambar": "/asset/Hari/minggu.png",
+                    "makna": "Minggu"
+                }
+            ]
+        }
+    ]
+}

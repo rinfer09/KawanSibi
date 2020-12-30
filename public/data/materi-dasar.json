@@ -1,0 +1,191 @@
+{
+    "materidasar": [
+        {
+            "judul": "Mengenal Abjad",
+            "data": [
+                {
+                    "gambar": "/asset/AbjadSibi/a.jpeg",
+                    "makna": "A"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/b.jpeg",
+                    "makna":"B"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/c.jpeg",
+                    "makna":"C"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/d.jpeg",
+                    "makna":"D"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/e.jpeg",
+                    "makna":"E"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/f.jpeg",
+                    "makna":"F"
+                },
+                {
+                    "gambar": "/asset/AbjadSibi/g.jpeg",
+                    "makna": "G"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/h.jpeg",
+                    "makna":"H"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/i.jpeg",
+                    "makna":"I"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/j.jpeg",
+                    "makna":"J"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/k.jpeg",
+                    "makna":"K"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/L.jpeg",
+                    "makna":"L"
+                },
+                {
+                    "gambar": "/asset/AbjadSibi/m.jpeg",
+                    "makna": "M"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/n.jpeg",
+                    "makna":"N"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/o.jpeg",
+                    "makna":"O"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/p.jpeg",
+                    "makna":"P"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/q.jpeg",
+                    "makna":"Q"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/r.jpeg",
+                    "makna":"R"
+                },
+                {
+                    "gambar": "/asset/AbjadSibi/s.jpeg",
+                    "makna": "S"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/t.jpeg",
+                    "makna":"T"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/u.jpeg",
+                    "makna":"U"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/v.jpeg",
+                    "makna":"V"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/w.jpeg",
+                    "makna":"W"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/x.jpeg",
+                    "makna":"X"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/y.jpeg",
+                    "makna":"Y"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/z.jpeg",
+                    "makna":"Z"
+                }
+            ]
+        },
+        {
+            "judul": "Mengenal Angka",
+            "data": [
+                {
+                    "gambar": "/asset/AbjadSibi/satu.jpeg",
+                    "makna": "1"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/dua.jpeg",
+                    "makna":"2"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/tiga.jpeg",
+                    "makna":"3"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/empat.jpeg",
+                    "makna":"4"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/lima.jpeg",
+                    "makna":"5"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/enam.jpeg",
+                    "makna":"6"
+                },
+                {
+                    "gambar": "/asset/AbjadSibi/tujuh.jpeg",
+                    "makna": "7"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/delapan.jpeg",
+                    "makna":"8"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/sembilan.jpeg",
+                    "makna":"9"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/sepuluh.jpeg",
+                    "makna":"10"
+                }
+            ]
+        },
+        {
+            "judul":"Kata Ganti Orang",
+            "data":[
+                {
+                    "gambar": "/asset/AbjadSibi/saya.jpeg",
+                    "makna": "Saya"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/aku.jpeg",
+                    "makna":"Aku"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/kamu.jpeg",
+                    "makna":"Kamu"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/kami.jpeg",
+                    "makna":"Kami"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/kita.jpeg",
+                    "makna":"Kita"
+                },
+                {
+                    "gambar":"/asset/AbjadSibi/mereka.jpeg",
+                    "makna":"Mereka"
+                },
+                {
+                    "gambar": "/asset/AbjadSibi/dia.jpeg",
+                    "makna": "Dia"
+                }
+            ]
+        }
+    ]
+}

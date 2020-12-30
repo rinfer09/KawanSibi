@@ -31,8 +31,14 @@ Router.get('/dashboard', (req, res) => {
 Router.get('/quiz/mudah/angka', (req, res) => {
 	res.sendFile(path.resolve('public/quiz.html'));
 });
+// ujian
+
+Router.get('/ujian', (req, res) => {
+	res.sendFile(path.resolve('public/Ujian.html'));
+});
 
 Router.get('/quiz/sulit/perasan');
+
 
 //materi-dasar-abjad
 
@@ -106,6 +112,11 @@ Router.get('/materi/mahir/perasaan/2', (req, res) => {
 
 Router.get('/materi/mahir/hari', (req, res) => {
 	res.sendFile(path.resolve('public/Materi-mahir-hari.html'));
+
+// score
+Router.get('/score', (req, res) => {
+	res.sendFile(path.resolve('public/score.html'));
+
 });
 
 module.exports = Router;

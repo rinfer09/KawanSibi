@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>KawanSibi | Ujian</title>
+		<link rel="stylesheet" href="/css/Ujian.css" />
+		
+	</head>
+	<body>
+		<header>
+			<h1 class="pertanyaan"><span id="nomor">1</span>.Apa arti dari gambar di bawah ini?</h1>
+		</header>
+
+		<div class="gambar">
+			<div class="gambar1">
+				<img  src="/asset/GantiOrang/saya.png" alt="Gambar 1">
+			<div class="jawaban">
+			</div>
+			</div>
+
+			<div class="gambar2">
+				<img src="/asset/Pekerjaan/pilot.jpg" alt="Gambar 2">
+			<div class="jawaban">
+			</div>
+			</div>
+		</div>
+
+		<div class="pilihan">		
+			<div class="pilihan1">
+				<div class="pilih">
+					<p class="satu teks">A</p>
+				</div>
+				<div class="pilih">
+					<p class="dua teks">B</p>
+				</div>
+			</div>
+			<div class="pilihan2">	
+				<div class="pilih">
+					<p class="dua teks">C</p>  
+				</div>
+				<div class="pilih">
+					<p class="satu teks">D</p>  
+				</div>
+			</div>
+		</div>	
+
+		<button class="periksa" id="periksa">Periksa</button>
+
+		<div class="hasil hide" id="hasil">
+			<img id="answer-img" src="/asset/icon/score/check.svg" alt="benar" />
+			<h3 id="quote">Jawaban kamu benar</h3>
+			<h3 id="answer">"Satu"</h3>
+			<img
+				src="/asset/icon/selanjutnya.svg"
+				alt="selanjutnya"
+				class="selanjutnya"
+			/>
+		</div>
+		<script src="/js/ujian.js"></script>
+	</body>
+</html>

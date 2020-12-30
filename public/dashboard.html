@@ -12,12 +12,12 @@
     <nav class="header">
         <h1 class="brand">KawanSiBi</h1>
         <div class="profil">
-            <span class="user-image">U</span>
-            <span>Halo, Username!</span> 
-            <div class="menu3">
-                <p>Profil Saya</p>
+            <span id="username" class="user-image"></span>
+            <span id="halo">Halo, Username!</span> 
+            <div class="menu3 hide">
+                <a href="/editProfil">Profil Saya</a>
                 <hr>
-                <p>Keluar</p> 
+                <a href="/logout">Keluar</a> 
             </div>          
         </div>   
     </nav>
@@ -30,21 +30,21 @@
                         <img class="angka1" src="/asset/icon/Dashboard/mudah.svg" alt="1" height=45px>
                         <div>
                             <span>Mudah</span>
-                            <span>80%</span>
+                            <span id="nilaiMudah">80%</span>
                         </div>
                     </div>
                     <div class="progres">
-                        <img class="angka1" src="/asset/icon/Dashboard/mudah.svg" alt="1" height=45px>
+                        <img class="angka1" src="/asset/icon/Dashboard/menengah.svg" alt="1" height=45px>
                         <div>
                             <span>Menengah</span>
-                            <span>80%</span>
+                            <span id="nilaiMenengah">80%</span>
                         </div>
                     </div>
                     <div class="progres">
-                        <img class="angka1" src="/asset/icon/Dashboard/mudah.svg" alt="1" height=45px>
+                        <img class="angka1" src="/asset/icon/Dashboard/sulit.svg" alt="1" height=45px>
                         <div>
                             <span>Sulit</span>
-                            <span>80%</span>
+                            <span id="nilaiSulit">80%</span>
                         </div>
                     </div>
                 
@@ -55,72 +55,127 @@
     <section>
         <div class="content">
             <div>
-                <h1><img class="angka" src="/asset/icon/Dashboard/menengah.svg" alt="2" height=50px>Mudah</h1>
+                <div class="heading3">
+                    <img class="angka" src="/asset/icon/Dashboard/mudah.svg" alt="2" height=50px>
+                    <h1>Mudah</h1>
+                </div>
                 <div class="materi">
-                            <div class="gambar" href=""><img id="place" src="/asset/icon/Dashboard/angka.svg" alt="Tempat" height="50px"></div>
-                            <div class="menu3">
-                                <p>Profil Saya</p>
-                                <hr>
-                                <p>Keluar</p> 
+                    <div class="satu-materi">
+                        <div class="gambar" href=""><img class="angka-abjad" src="/asset/icon/Dashboard/123.svg" alt="angka"></div>
+                        <div class="pop-up invisible">
+                            <div class="kiri">
+                                <span class="heading4">Huruf</span><br>
+                                <a class="lihatmat">Lihat materi</a><br><br>
                             </div>
-                    <ul>
-                        <li> 
-                            <div class="gambar"><img  src="/asset/icon/Dashboard/abjad.svg" alt="Pekerjaan" height="50px"></div>
-                            <ul class="menu1">
-                                <a href=""><li>Lihat Materi</li></a><br>
-                                <a href=""><li>Latihan!</li></a>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li> 
-                            <div class="gambar"><img  src="/asset/icon/Dashboard/gantiOrang.svg" alt="Keluarga" height="50px"></div>
-                            <ul class="menu1">
-                                <p>gantiOrang</p>
-                                <a href=""><li>Lihat Materi</li></a><br>
-                                <a href=""><li>Latihan!</li></a>
-                            </ul>
-                        </li>
-                    </ul>
+                            <a class="latihan">Latihan!</a> 
+                         
+                            
+                        </div>
+                    </div>
+                    <div class="satu-materi">
+                            <div class="gambar"><img class="angka-abjad"  src="/asset/icon/Dashboard/abc.svg" alt="abjad"></div>
+                            <div class="pop-up invisible">
+                                <div class="kiri">
+                                    <span class="heading4">Angka</span><br>
+                                    <a class="lihatmat">Lihat materi</a><br><br>
+                                    </div>
+                            <a class="latihan">Latihan!</a> 
+                            </div>
+                    </div>
+                    <div class="satu-materi">
+                        <div class="gambar"><img  src="/asset/icon/Dashboard/gantiOrang.svg" alt="gantiOrang" height="50px"></div>
+                        <div class="pop-up invisible">
+                            <div class="kiri">
+                                <span class="heading4">Kata Ganti Orang</span><br>
+                                <a class="lihatmat">Lihat materi</a><br><br>
+                            </div>
+                            <a class="latihan">Latihan!</a> 
+                        </div>
+                </div>
+            
                 </div>
             </div>
             <hr>
-            <div class="content">
-                <div>
-                    <h1><img class="angka" src="/asset/icon/Dashboard/menengah.svg" alt="2" height=50px>Mudah</h1>
-                    <div class="materi">
-                        <ul>
-                            <li> 
-                                <div class="gambar" href=""><img id="place" src="/asset/icon/Dashboard/angka.svg" alt="Tempat" height="50px"></div>
-                                <ul class="menu1">
-                                    <a href=""><li>Lihat Materi</li></a><br>
-                                    <a href=""><li>Latihan!</li></a>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li> 
-                                <div class="gambar"><img  src="/asset/icon/Dashboard/abjad.svg" alt="Pekerjaan" height="50px"></div>
-                                <ul class="menu1">
-                                    <a href=""><li>Lihat Materi</li></a><br>
-                                    <a href=""><li>Latihan!</li></a>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li> 
-                                <div class="gambar"><img  src="/asset/icon/Dashboard/gantiOrang.svg" alt="Keluarga" height="50px"></div>
-                                <ul class="menu1">
-                                    <p>gantiOrang</p>
-                                    <a href=""><li>Lihat Materi</li></a><br>
-                                    <a href=""><li>Latihan!</li></a>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+            <div>
+                <div class="heading3">
+                    <img class="angka" src="/asset/icon/Dashboard/menengah.svg" alt="2" height=50px>
+                    <h1>Menengah</h1>
                 </div>
-                <hr>
+                <div class="materi">
+                    <div class="satu-materi">
+                        <div class="gambar" href=""><img src="/asset/icon/Dashboard/place.svg" alt="Tempat" height="50px"></div>
+                        <div class="pop-up invisible">
+                            <div class="kiri">
+                                <span class="heading4">Tempat</span><br>
+                                <a class="lihatmat">Lihat materi</a><br><br>
+                            </div>
+                            <a class="latihan">Latihan!</a> 
+                        </div>
+                    </div>
+                    <div class="satu-materi">
+                            <div class="gambar"><img  src="/asset/icon/Dashboard/job.svg" alt="Pekerjaan" height="50px"></div>
+                            <div class="pop-up invisible">
+                                <div class="kiri">
+                                    <span class="heading4">Pekerjaan</span><br>
+                                    <a class="lihatmat">Lihat materi</a><br><br>
+                                </div>
+                            <a class="latihan">Latihan!</a> 
+                            </div>
+                    </div>
+                    <div class="satu-materi">
+                        <div class="gambar"><img  src="/asset/icon/Dashboard/family.svg" alt="keluarga" height="50px"></div>
+                        <div class="pop-up invisible">
+                            <div class="kiri">
+                                <span class="heading4">Keluarga</span><br>
+                                <a class="lihatmat">Lihat materi</a><br><br>
+                            </div>
+                            <a class="latihan">Latihan!</a> 
+                        </div>
+                </div>
             
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div class="heading3">
+                    <img class="angka" src="/asset/icon/Dashboard/sulit.svg" alt="2" height=50px>
+                    <h1>Sulit</h1>
+                </div>
+                <div class="materi">
+                    <div class="satu-materi">
+                        <div class="gambar" href=""><img src="/asset/icon/Dashboard/fruit.svg" alt="buah" height="50px"></div>
+                        <div class="pop-up invisible">
+                            <div class="kiri">
+                                <span class="heading4">Buah</span><br>
+                                <a class="lihatmat">Lihat materi</a><br><br>
+                            </div>
+                            <a class="latihan">Latihan!</a> 
+                        </div>
+                    </div>
+                    <div class="satu-materi">
+                            <div class="gambar"><img  src="/asset/icon/Dashboard/perasaan.svg" alt="perasaan" height="50px"></div>
+                            <div class="pop-up invisible">
+                                <div class="kiri">
+                                    <span class="heading4">Perasaan</span><br>
+                                    <a class="lihatmat">Lihat materi</a><br><br>
+                                </div>
+                            <a class="latihan">Latihan!</a> 
+                            </div>
+                    </div>
+                    <div class="satu-materi">
+                        <div class="gambar"><img  src="/asset/icon/Dashboard/day.svg" alt="nama-hari" height="50px"></div>
+                        <div class="pop-up invisible">
+                            <div class="kiri">
+                                <span class="heading4">Hari</span><br>
+                                <a class="lihatmat">Lihat materi</a><br><br>
+                            </div>
+                            <a class="latihan">Latihan!</a> 
+                        </div>
+                </div>
+            
+                </div>
+            </div>
+            <hr>
 
         <div>
             <a href=""><button type="submit">UJIAN</button> <br><br><br>
@@ -132,5 +187,6 @@
     <footer>
        <p>Copyright 2020</p> 
     </footer>
+    <script src="/js/dashboard.js"></script>
 </body>
 </html>

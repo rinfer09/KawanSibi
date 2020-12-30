@@ -81,25 +81,25 @@
 				},
 				{
 					"nomer": 2,
-					"gambar": "/asset/AbjadSibi/aku.png",
+					"gambar": "/asset/GantiOrang/aku.png",
 					"pilihan": ["Saya", "Aku", "Kamu", "Mereka"],
 					"jawaban": "Aku"
 				},
 				{
 					"nomer": 3,
-					"gambar": "/asset/AbjadSibi/kita.png",
+					"gambar": "/asset/GantiOrang/kita.png",
 					"pilihan": ["Saya", "Mereka", "Kita", "Kamu"],
 					"jawaban": "Kita"
 				},
 				{
 					"nomer": 4,
-					"gambar": "/asset/AbjadSibi/mereka.png",
+					"gambar": "/asset/GantiOrang/mereka.png",
 					"pilihan": ["Kamu", "Saya", "Dia", "Mereka"],
 					"jawaban": "Mereka"
 				},
 				{
 					"nomer": 5,
-					"gambar": "/asset/AbjadSibi/kamu.png",
+					"gambar": "/asset/GantiOrang/kamu.png",
 					"pilihan": ["Kamu", "Aku", "Dia", "Mereka"],
 					"jawaban": "Kamu"
 				}
@@ -199,9 +199,9 @@
 					"jawaban": "Ibu"
 				},
 				{
-					"nomer": 2,
-					"gambar": "/asset/Pekerjaan/guru.jpg",
-					"pilihan": ["Guru", "Dokter", "Murid", "Pilot"],
+					"nomer": 4,
+					"gambar": "/asset/Keluarga/adik.jpg",
+					"pilihan": ["Adik", "Bapak", "Paman", "Nenek"],
 					"jawaban": "Guru"
 				},
 				{
@@ -213,7 +213,7 @@
 			]
 		}
 	],
-	"Sulit": [
+	"sulit": [
 		{
 			"judul": "Buah",
 			"data": [
@@ -250,35 +250,35 @@
 			]
 		},
 		{
-			"judul": "Perasaan",
+			"judul": "perasaan",
 			"data": [
 				{
 					"nomer": 1,
-					"gambar": "/asset/Perasaan/bahagia.png",
+					"gambar": "/asset/Perasaan/bahagia.jpg",
 					"pilihan": ["Bahagia", "Gembira", "Kecewa", "Sedih"],
 					"jawaban": "Bahagia"
 				},
 				{
 					"nomer": 2,
-					"gambar": "/asset/Perasaan/gembira.png",
+					"gambar": "/asset/Perasaan/gembira.jpg",
 					"pilihan": ["Takut", "Gembira", "Kecewa", "Sedih"],
 					"jawaban": "Gembira"
 				},
 				{
 					"nomer": 3,
-					"gambar": "/asset/Perasaan/marah.png",
+					"gambar": "/asset/Perasaan/marah.jpg",
 					"pilihan": ["Takut", "Bingung", "Marah", "Sedih"],
 					"jawaban": "Marah"
 				},
 				{
 					"nomer": 4,
-					"gambar": "/asset/Perasaan/sedih.png",
+					"gambar": "/asset/Perasaan/sedih.jpg",
 					"pilihan": ["Takut", "Kecewa", "Bingung", "Sedih"],
 					"jawaban": "Sedih"
 				},
 				{
 					"nomer": 5,
-					"gambar": "/asset/Perasaan/takut.png",
+					"gambar": "/asset/Perasaan/takut.jpg",
 					"pilihan": ["Bahagia", "Takut", "Kecewa", "Gembira"],
 					"jawaban": "Takut"
 				}
@@ -289,31 +289,31 @@
 			"data": [
 				{
 					"nomer": 1,
-					"gambar": "/asset/Hari/selasa.jpeg",
+					"gambar": "/asset/Hari/selasa.png",
 					"pilihan": ["Selasa", "Kamis", "Sabtu", "Minggu"],
 					"jawaban": "Selasa"
 				},
 				{
 					"nomer": 2,
-					"gambar": "/asset/Hari/rabu.jpeg",
+					"gambar": "/asset/Hari/rabu.png",
 					"pilihan": ["Rabu", "Kamis", "Senin", "Minggu"],
 					"jawaban": "Rabu"
 				},
 				{
 					"nomer": 3,
-					"gambar": "/asset/Hari/minggu.jpeg",
+					"gambar": "/asset/Hari/minggu.png",
 					"pilihan": ["Jumat", "Kamis", "Sabtu", "Minggu"],
 					"jawaban": "Minggu"
 				},
 				{
 					"nomer": 4,
-					"gambar": "/asset/Hari/jumat.jpeg",
+					"gambar": "/asset/Hari/jumat.png",
 					"pilihan": ["Jumat", "Kamis", "Sabtu", "Se;asa"],
 					"jawaban": "Jumat"
 				},
 				{
 					"nomer": 5,
-					"gambar": "/asset/Hari/kamis.jpeg",
+					"gambar": "/asset/Hari/kamis.png",
 					"pilihan": ["Rabu", "Kamis", "Sabtu", "Minggu"],
 					"jawaban": "Kamis"
 				}

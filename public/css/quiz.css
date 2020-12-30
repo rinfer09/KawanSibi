@@ -31,10 +31,12 @@ body {
 
 .content img {
 	background-color: #ffffff;
-	margin: 10%;
+	margin-top: 5%;
 	padding: 10% 7%;
 	border-radius: 10px;
 	border: solid 5px #ad0d18;
+	width: 200px;
+	height: 300px;
 }
 
 .jawab {
@@ -51,6 +53,10 @@ body {
 .dua {
 	background-color: #1538a5;
 	color: #eaf1ff;
+}
+
+.jawaban {
+	width: 600px;
 }
 
 .pil {
@@ -81,7 +87,7 @@ body {
 	background-color: #e2102d;
 	border: none;
 	float: right;
-	margin: 3% 12%;
+	margin: 2% 12% 3%;
 	padding: 10px 10px;
 	border-radius: 10px;
 }

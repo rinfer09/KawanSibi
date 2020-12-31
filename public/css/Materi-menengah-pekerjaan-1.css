@@ -1,0 +1,166 @@
+/* css reset */
+@import 'reset.css';
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+body{
+    font-family: Rowdies;
+    background-color: #69259C;
+    overflow-x: hidden;
+}
+
+.bc{
+    position: absolute;
+    z-index: -5;
+}
+
+.header{
+    height: 80px;
+}
+
+.header-logo{
+    float:left;
+    padding: 20px 40px;
+    font-size: 36px;
+}
+
+.btn-close{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 36px;
+    float:right;
+    color:white;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-right: 40px;
+    border:0px;
+    padding: 0px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.header-logo{
+    text-align: left;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    padding-bottom:25px;
+    padding-top:25px;
+    font-size: 36px;
+}
+
+.contents{
+    margin: 50px 250px;
+    width: 1400px;
+    height: 325px;
+    align-content: center;
+}
+
+.contents-item{
+    height: 230px;
+    width: 150px;
+    float:left;
+    margin-right:75px;
+    background-color: white;
+    border: 4px solid #EAF1FF;
+    border-radius: 7px;
+    left:50%;
+}
+
+.contents-item img{
+    width:120px;
+    height:210px;
+    padding-top:10%;
+    padding-left:10%;
+}
+
+.contents-item img:hover{
+    opacity:50%;
+    cursor: pointer;
+}
+
+.anak p{
+    width: 200px;
+}
+
+.contents-item p{
+    font-size: 36px;
+    text-align: center;
+    color:white;
+    margin-top:50px;
+}
+
+.btn-next{
+    width: 80px;
+    height: 80px;
+    float:right;
+    background-color: transparent;
+    margin-right:40px;
+    margin-bottom:40px; 
+    border:0px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:50%;
+    cursor:pointer;
+}
+
+.deskripsi{
+    background: #FFFFFF;
+    border: 1px solid #EAF1FF;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 5;
+    top: 160px;
+    display: flex;
+    left:23%;
+}
+
+.deskripsi-img {
+    width:120px;
+    height:210px;
+    padding: 50px;
+}
+
+.deskripsi-close{
+    text-align: right;
+    color: #69259C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    right:0px;
+    position: absolute;
+    border:none;
+    background-color: transparent;
+    margin-top:15px;
+    margin-right:15px;
+    font-weight: 900;
+    font-size: 24px;
+    cursor:pointer;
+}
+
+.deskripsi-text h1{
+    padding-top: 65px;
+    font-size:24px;
+    width:433px;
+}
+
+.deskripsi-text p{
+    color: #919197;
+    font-size:20px;
+    width:433px;
+    padding-top:25px;
+    padding-bottom:65px;
+    padding-right:50px;
+    line-height: 30px;
+}
+
+.hide{
+    display:none;
+}
+
+.effect{
+    filter: blur(8px);
+    pointer-events: none;
+}

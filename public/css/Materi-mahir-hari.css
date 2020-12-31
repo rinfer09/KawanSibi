@@ -1,0 +1,107 @@
+/* css reset */
+@import 'reset.css';
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+body{
+    font-family: Rowdies;
+    background-color: #84ACF2;
+    overflow-x: hidden;
+}
+
+.bc{
+    position: absolute;
+    z-index: -5;
+}
+
+.header{
+    height: 80px;
+}
+
+.header-logo{
+    float:left;
+    padding: 20px 40px;
+    font-size: 36px;
+}
+
+.btn-close{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 36px;
+    float:right;
+    color:white;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-right: 40px;
+    border:0px;
+    cursor:pointer;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.header-logo{
+    text-align: left;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    padding-bottom:15px;
+    font-size: 36px;
+}
+
+.contents{
+    margin: 25px;
+    width: 1250px;
+    align-content: center;
+    padding-left: 12%;
+}
+
+.contents-item{
+    height: 140px;
+    width: 140px;
+    float:left;
+    margin-right:125px;
+    margin-bottom:75px;
+    background-color: white;
+    border: 4px solid #5D1890;
+    border-radius: 100px;
+}
+
+.contents-item img{
+    width:120px;
+    height:120px;
+    border-radius:100px;
+    padding-top:5%;
+    padding-left:5%;
+}
+
+.contents-item p{
+    font-size: 36px;
+    text-align: center;
+    color:white;
+    margin-top:25px;
+}
+
+.bawah{
+    padding-left: 150px;
+}
+
+button:hover{
+    opacity:50%;
+}
+
+.btn-start{
+    width: 200px;
+    height: 70px;
+    background: #1538A5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    font-family: Rowdies;
+    font-size: 20px;
+    float:right;
+    color: #ffffff;
+    margin-right:40px;
+    margin-bottom:40px;
+    cursor: pointer;
+}

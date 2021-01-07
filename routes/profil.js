@@ -12,7 +12,8 @@ Router.get('/', (req, res) => {
 // update user profil
 Router.patch('/', async (req, res) => {
 	try {
-		const username = req.user.username;
+		//const username = req.user.username;
+		const username = "dennisf";
 		const input = req.body;
 		const q = `UPDATE user SET ? WHERE username = '${username}'`;
 		const data = await conn.query(q, input, (err, data) => {

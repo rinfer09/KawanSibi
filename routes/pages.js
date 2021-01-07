@@ -118,24 +118,20 @@ Router.get('/quiz/sulit/hari', (req, res) => {
 // ujian
 
 Router.get('/ujian', (req, res) => {
-	// if (req.user !== undefined) {
-	// 	res.sendFile(path.resolve('public/Ujian.html'));
-	// } else {
-	// 	res.redirect('/');
-	// }
-	res.sendFile(path.resolve('public/Ujian.html'));
+	if (req.user !== undefined) {
+		res.sendFile(path.resolve('public/Ujian.html'));
+	} else {
+		res.redirect('/');
+	}
 });
-
-Router.get('/quiz/sulit/perasan');
 
 // score
 Router.get('/score', (req, res) => {
-	// if (req.user !== undefined) {
-	// 	res.sendFile(path.resolve('public/score.html'));
-	// } else {
-	// 	res.redirect('/');
-	// }
-	res.sendFile(path.resolve('public/score.html'));
+	if (req.user !== undefined) {
+		res.sendFile(path.resolve('public/score.html'));
+	} else {
+		res.redirect('/');
+	}
 });
 
 //materi-dasar-abjad
@@ -188,27 +184,27 @@ Router.get('/materi/menengah/keluarga/2', (req, res) => {
 
 //materi-mahir-buah
 
-Router.get('/materi/mahir/buah/1', (req, res) => {
+Router.get('/materi/sulit/buah/1', (req, res) => {
 	res.sendFile(path.resolve('public/Materi-mahir-buah-1.html'));
 });
 
-Router.get('/materi/mahir/buah/2', (req, res) => {
+Router.get('/materi/sulit/buah/2', (req, res) => {
 	res.sendFile(path.resolve('public/Materi-mahir-buah-2.html'));
 });
 
 //materi-mahir-perasaan
 
-Router.get('/materi/mahir/perasaan/1', (req, res) => {
+Router.get('/materi/sulit/perasaan/1', (req, res) => {
 	res.sendFile(path.resolve('public/Materi-mahir-perasaan-1.html'));
 });
 
-Router.get('/materi/mahir/perasaan/2', (req, res) => {
+Router.get('/materi/sulit/perasaan/2', (req, res) => {
 	res.sendFile(path.resolve('public/Materi-mahir-perasaan-2.html'));
 });
 
 //materi-mahir-hari
 
-Router.get('/materi/mahir/hari', (req, res) => {
+Router.get('/materi/sulit/hari', (req, res) => {
 	res.sendFile(path.resolve('public/Materi-mahir-hari.html'));
 });
 

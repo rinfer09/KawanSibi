@@ -27,12 +27,27 @@ fetch('/api/profil')
 		const sulit = (data.n_buah + data.n_perasaan + data.n_hari) / 3;
 		const nilaiSulit = document.querySelector('#nilaiSulit');
 		nilaiSulit.textContent = Math.floor(sulit) + '%';
+		const ujian = document.querySelector('#ujian-link');
 		if (mudah < 60) {
 			level = 'mudah';
+			ujian.onclick = (e) => {
+				e.preventDefault();
+				alert('selesaikan seluruh materi terlebih dahulu');
+			};
 		} else if (menengah < 60) {
 			level = 'menengah';
-		} else {
+			ujian.onclick = (e) => {
+				e.preventDefault();
+				alert('selesaikan seluruh materi terlebih dahulu');
+			};
+		} else if (sulit < 60) {
 			level = 'sulit';
+			ujian.onclick = (e) => {
+				e.preventDefault();
+				alert('selesaikan seluruh materi terlebih dahulu');
+			};
+		} else {
+			ujian.href = '/ujian';
 		}
 	});
 
@@ -41,24 +56,23 @@ if ((level = 'mudah')) {
 	akhir = 3;
 } else if ((level = 'menengah')) {
 	akhir = 6;
-} else if ((level = 'akhir')) {
+} else if ((level = 'sulit')) {
 	akhir = userImage.length;
 }
 
 const userImage = document.querySelectorAll('.gambar');
+const menuPopUp = document.querySelectorAll('.pop-up');
 for (let i = 0; i < userImage.length; i++) {
+	if (i >= akhir) {
+		menuPopUp[
+			i
+		].innerHTML = `<span>Selesaikan materi ${level} Terlebih dahulu</span>`;
+	}
 	userImage[i].onclick = function () {
-		const menuPopUp = document.querySelectorAll('.pop-up');
-		// if (i < akhir) {
-		// 	menuPopUp.forEach((e) => {
-		// 		e.classList.add('invisible');
-		// 	});
-		// 	menuPopUp[i].classList.toggle('invisible');
-		// } else {
-		// 	alert('Untuk mengakses nilai level ' + level + ' harus diatas 60');
-		// }
-		menuPopUp.forEach((e) => {
-			e.classList.add('invisible');
+		menuPopUp.forEach((e, index) => {
+			if (index !== i) {
+				e.classList.add('invisible');
+			}
 		});
 		menuPopUp[i].classList.toggle('invisible');
 	};

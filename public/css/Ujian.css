@@ -60,6 +60,18 @@ body {
 	box-shadow: 1px 2px 5px #69259c;
 }
 
+.jawab {
+	background-color: #69259c;
+	color: #ffffff;
+	margin-bottom: 50px;
+	padding: 20px;
+	padding-right: 50px;
+	border-radius: 14px;
+	width: 90%;
+	height: 30px;
+	cursor: move;
+}
+
 .pilih.dragging {
 	opacity: 0.5;
 }

@@ -27,7 +27,7 @@
                 {
 					"nomer": 5,
 					"gambar": ["/asset/Keluarga/ayah.jpg","/asset/GantiOrang/kita.png"],
-					"pilihan": ["2", "Ayah", "Ibu", "Pisang"],
+					"pilihan": ["2", "Ayah", "Ibu", "Kita"],
 					"jawaban": ["Ayah","Kita"]
                 },
                 {
@@ -45,7 +45,7 @@
                 {
 					"nomer": 8,
 					"gambar": ["/asset/Pekerjaan/pegawai.jpg","/asset/Tempat/bank.jpg"],
-					"pilihan": ["Pegawai", "Tentara", "Murid", "Pilot"],
+					"pilihan": ["Pegawai", "Tentara", "Murid", "Bank"],
 					"jawaban": ["Pegawai","Bank"]
 				},
                 {

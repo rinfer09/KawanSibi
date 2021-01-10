@@ -35,36 +35,39 @@
             </div>
 
             <div class="foto">
-            <img src="/asset/icon/profile/orang.png" alt="orang" width="75" height="75"/>
-                <h2>Ganti Foto</h2>
+            <img id="fotoprofil" src="/asset/icon/profile/orang.png" alt="orang" width="75" height="75"/>
+            <input type="file" accept="image/*" class="inputimage"/>    
+            <h2>Ganti Foto</h2>
             </div>
 
             <div class="editprofil">
-           
+            <form method="POST">
                 <h3>Username</h3>
-                    <input class="text" type="text" disabled/>
+                    <input id="Username" class="text" type="text" disabled/>
                     <div class="nama">
                     <div class="namadepan">
                         <h3>Nama Depan</h3>
-                        <input class="text" type="text" />
+                        <input id="namadepan" class="text" type="text" />
                     </div>
                     <div class="namabelakang">
                         <h3>Nama Belakang</h3>
-                        <input class="text" type="text" />
+                        <input id="namabelakang" class="text" type="text" />
                     </div>
                 </div>
                 <h3>Email</h3>
-                    <input class="text" type="email" /> 
+                    <input id="email" class="text" type="email" /> 
                 <h3>No Hp</h3>
-                    <input class="text" type="number"/> 
+                    <input id="nohp" class="text" type="number"/> 
                 <h3>Tanggal Lahir</h3>
-                    <input class="text" type="date">
+                    <input id="tanggallahir" class="text" type="date"/>
                 <h3>Jenis Kelamin</h3>
                 <td>
                     <input id="Perempuan" type="radio" name="jk"><label for="Perempuan">Perempuan</label>
-                    <input type="radio" name="jk">Laki-laki
+                    <input id="laki-laki" type="radio" name="jk"><label for="laki-laki">Laki-laki</label>
                 </td>    
                 <button type="submit">Simpan</button>
+            </form>
             </div>
+            <script src="/js/editprofil.js"></script>
 </body>
 </html>

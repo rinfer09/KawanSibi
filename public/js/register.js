@@ -24,7 +24,12 @@ form.addEventListener('submit', (e) => {
 			'Content-type': 'application/json',
 		},
 	})
-		.then((res) => res.json())
+		.then((res) => {
+			if (res.ok) {
+				window.location.href = '/login';
+			}
+			return res.json();
+		})
 		.then((data) => {
 			console.log(data);
 			data.forEach((element) => {

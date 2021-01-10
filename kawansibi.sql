@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 17, 2020 at 01:13 PM
+-- Generation Time: Jan 10, 2021 at 01:09 PM
 -- Server version: 10.4.16-MariaDB
 -- PHP Version: 7.4.12
 
@@ -36,7 +36,7 @@ CREATE TABLE `user` (
   `password` varchar(100) NOT NULL,
   `tanggal_lahir` date DEFAULT NULL,
   `jenis_kelamin` varchar(10) DEFAULT NULL,
-  `foto_profil` longblob DEFAULT NULL,
+  `foto_profil` longtext DEFAULT NULL,
   `n_abjad` int(11) DEFAULT 0,
   `n_angka` int(11) NOT NULL DEFAULT 0,
   `n_orang` int(11) NOT NULL DEFAULT 0,
@@ -48,13 +48,6 @@ CREATE TABLE `user` (
   `n_hari` int(11) NOT NULL DEFAULT 0,
   `n_ujian` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `user`
---
-
-INSERT INTO `user` (`username`, `nama_depan`, `nama_belakang`, `email`, `no_hp`, `password`, `tanggal_lahir`, `jenis_kelamin`, `foto_profil`, `n_abjad`, `n_angka`, `n_orang`, `n_tempat`, `n_pekerjaan`, `n_keluarga`, `n_buah`, `n_perasaan`, `n_hari`, `n_ujian`) VALUES
-('dennisf', NULL, NULL, 'dennis123@gmail.com', NULL, '$2b$10$/PJ6XVeARCdOt2jszpCGb.Otm2WX4trzbOsWugZsWeZpwYiFpDxUW', NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

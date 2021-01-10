@@ -26,21 +26,19 @@ Router.get('/register', (req, res) => {
 });
 
 Router.get('/editProfil', (req, res) => {
-	//if (req.user !== undefined) {
-	//	res.sendFile(path.resolve('public/editprofil.html'));
-	//} else {
-	//	res.redirect('/');
-	//}
-	res.sendFile(path.resolve('public/editprofil.html'));
+	if (req.user !== undefined) {
+		res.sendFile(path.resolve('public/editprofil.html'));
+	} else {
+		res.redirect('/');
+	}
 });
 
 Router.get('/editPassword', (req, res) => {
-	/*if (req.user !== undefined) {
+	if (req.user !== undefined) {
 		res.sendFile(path.resolve('public/editpass.html'));
 	} else {
 		res.redirect('/');
-	}*/
-	res.sendFile(path.resolve('public/editpass.html'));
+	}
 });
 
 // dashboard

@@ -1,8 +1,8 @@
 let level = '';
-const userElement = document.querySelector('#username');
+const userElement = document.querySelector('#popup-menu');
 userElement.onclick = function () {
 	const userPopUp = document.querySelector('.menu3');
-	userPopUp.classList.toggle('hide');
+	userPopUp.classList.toggle('invisible');
 };
 
 fetch('/api/profil')
@@ -15,8 +15,10 @@ fetch('/api/profil')
 			user.textContent = data.username.substring(0, 1);
 		} else {
 			const image = document.createElement('img');
-			image.src = data.foto_profil;
-			user.append(image);
+			image.classList.add('foto-profil');
+			image.src = data.fotoProfilS;
+			user.appendChild(image);
+			user.style.backgroundColor = 'transparent';
 		}
 		const mudah = (data.n_abjad + data.n_angka + data.n_orang) / 3;
 		const nilaiMudah = document.querySelector('#nilaiMudah');

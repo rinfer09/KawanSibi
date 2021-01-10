@@ -44,7 +44,6 @@ a:hover {
 	padding: 20px;
 	border-radius: 5px;
 	margin-top: 20px;
-	
 }
 
 .container {
@@ -55,15 +54,14 @@ a:hover {
 	box-shadow: 2px 2px 2px#ADB2C0;
 }
 
-.progress {
-	color: #69259c;
-}
-
 .progres-container {
 	width: 50%;
 	margin: 0 auto;
 	display: flex;
 	padding: 5%;
+}
+.progress-heading {
+	margin-left: 110px;
 }
 
 .progres {
@@ -98,7 +96,6 @@ a:hover {
 	width: 150px;
 	background-color: #fefeff;
 	overflow: auto;
-	
 }
 
 .materi {
@@ -110,6 +107,7 @@ a:hover {
 
 .satu-materi {
 	margin-right: 80px;
+	cursor: pointer;
 }
 
 hr {
@@ -150,18 +148,18 @@ button {
 	width: 80px;
 }
 
-.heading4{
+.heading4 {
 	font-size: 19px;
 	font-weight: bold;
 }
 
 .lihatmat {
-	color: #B2BEDD;
+	color: #b2bedd;
 }
 
 .latihan {
-	color: #69259C;
-	float: right;	
+	color: #69259c;
+	float: right;
 }
 
 .kiri {
@@ -182,4 +180,14 @@ footer {
 	overflow: hidden;
 	text-align: center;
 	color: #eaf1ff;
+}
+
+.foto-profil {
+	width: 30px;
+	height: 30px;
+	padding-top: 10px;
+}
+
+#popup-menu {
+	cursor: pointer;
 }

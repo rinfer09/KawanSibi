@@ -1,6 +1,6 @@
 const Router = require('express').Router();
 
-Router.get('/logout', (req, res) => {
+Router.get('/', (req, res) => {
 	req.logOut();
 	res.redirect('/login');
 });

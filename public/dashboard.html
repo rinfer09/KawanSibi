@@ -10,21 +10,25 @@
 </head>
 <body>
     <nav class="header">
-        <h1 class="brand">KawanSiBi</h1>
+        <a href="/dashboard">
+            <h1 class="brand">KawanSiBi</h1>
+        </a>
         <div class="profil">
-            <span id="username" class="user-image"></span>
-            <span id="halo">Halo, Username!</span> 
-            <div class="menu3 hide">
+            <div id="popup-menu">
+                <span id="username" class="user-image"></span>
+                <span id="halo">Halo, Username!</span> 
+            </div>
+            <div class="menu3 invisible">
                 <a href="/editProfil">Profil Saya</a>
                 <hr>
-                <a href="/logout">Keluar</a> 
+                <a href="/api/logout">Keluar</a> 
             </div>          
         </div>   
     </nav>
     <div class="content">
     <div class="container">
         <div class="progress"> 
-            <h1>Progress Saya</h1>
+            <h1 class="progress-heading">Progress Saya</h1>
             <div class="progres-container">
                     <div class="progres">
                         <img class="angka1" src="/asset/icon/Dashboard/mudah.svg" alt="1" height=45px>
@@ -64,8 +68,8 @@
                         <div class="gambar" href=""><img class="angka-abjad" src="/asset/icon/Dashboard/123.svg" alt="angka"></div>
                         <div class="pop-up invisible">
                             <div class="kiri">
-                                <span class="heading4">Huruf</span><br>
-                                <a href='/materi/dasar/abjad' class="lihatmat">Lihat materi</a><br><br>
+                                <span class="heading4">Angka</span><br>
+                                <a href="/materi/dasar/angka" class="lihatmat">Lihat materi</a><br><br>
                             </div>
                             <a href="/quiz/mudah/abjad" class="latihan">Latihan!</a> 
                         </div>
@@ -74,9 +78,9 @@
                             <div class="gambar"><img class="angka-abjad"  src="/asset/icon/Dashboard/abc.svg" alt="abjad"></div>
                             <div class="pop-up invisible">
                                 <div class="kiri">
-                                    <span class="heading4">Angka</span><br>
-                                    <a href="/materi/dasar/angka" class="lihatmat">Lihat materi</a><br><br>
-                                    </div>
+                                    <span class="heading4">Huruf</span><br>
+                                    <a href='/materi/dasar/abjad' class="lihatmat">Lihat materi</a><br><br>
+                                </div>
                             <a href="/quiz/mudah/angka" class="latihan">Latihan!</a> 
                             </div>
                     </div>
@@ -176,7 +180,7 @@
             <hr>
 
         <div>
-            <a href="" id="ujian-link"><button type="submit">UJIAN</button> <br><br><br>
+            <a href="/ujian" id="ujian-link"><button type="submit">UJIAN</button> <br><br><br>
         </div>
     </section>
 </div>

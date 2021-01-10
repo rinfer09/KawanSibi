@@ -1,138 +1,156 @@
 /* import fonts */
-@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
 
 body {
-  margin: 0;
-  font-size: 30px;
-  font-family: "Rowdies", cursive;
+	margin: 0;
+	font-size: 30px;
+	font-family: 'Rowdies', cursive;
 }
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .non-active {
-  opacity: 0.5;
+	opacity: 0.5;
 }
 
 .container {
-  width: 1350px auto;
-  height: 1055px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  border: 0 solid;
-  display: flex;
+	width: 1350px auto;
+	height: 1055px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	border: 0 solid;
+	display: flex;
 }
 
 .boxkiri {
-  width: 25%;
-  height: auto;
-  background-color: #ad0d18;
+	width: 25%;
+	height: auto;
+	background-color: #ad0d18;
+}
+.boxkiri h1 {
+	color: #ffffff;
 }
 
 .boxkanan {
-  width: 75%;
-  height: auto;
+	width: 75%;
+	height: auto;
 }
 
 .namaapp {
-  margin-left: 20px;
-  font-size: 30px;
-  color: #ffffff;
+	margin-left: 20px;
+	font-size: 30px;
+	color: #ffffff;
 }
 
 .profilsaya {
-  margin-left: 40px;
-  margin-top: 80px;
-  color: #ffffff;
-  font-size: 18px;
+	margin-left: 40px;
+	margin-top: 80px;
+	color: #ffffff;
+	font-size: 18px;
 }
 
 .judul {
-  font-size: 30px;
-  text-align: center;
-  margin-top: 40px;
-  color: #69259c;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 40px;
+	color: #69259c;
 }
 
 .foto {
-  font-size: 12px;
-  text-align: center;
-  color: #69259c;
+	font-size: 12px;
+	text-align: center;
+	color: #69259c;
 }
 
 .editprofil {
-  font-size: 18px;
-  margin: 70px;
-  color: #69259c;
+	font-size: 18px;
+	margin: 70px;
+	color: #69259c;
 }
 
 .text {
-  background-color: #ffffff;
-  border: solid 1px #c4c4c4;
-  border-radius: 10px;
-  width: 800px;
-  margin-bottom: 10px;
-  padding: 10px;
-  color: #69259c;
+	background-color: #ffffff;
+	border: solid 1px #c4c4c4;
+	border-radius: 10px;
+	width: 800px;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: #69259c;
 }
 
 input::placeholder {
-  font-size: 18px;
-  font-family: "Rowdies", cursive;
-  margin-left: 50px;
+	font-size: 18px;
+	font-family: 'Rowdies', cursive;
+	margin-left: 50px;
 }
 
 button {
-  float: right;
-  margin-right: 30px;
-  border: none;
-  border-radius: 20px;
-  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
-  width: 150px;
-  height: 50px;
-  color: #ffffff;
-  background-color: #1f3c88;
-  font-size: 20px;
-  font-family: "Rowdies", cursive;
+	float: right;
+	margin-right: 30px;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+	width: 150px;
+	height: 50px;
+	color: #ffffff;
+	background-color: #1f3c88;
+	font-size: 20px;
+	font-family: 'Rowdies', cursive;
 }
 
 .nama {
-  display: flex;
-  width: 800px;
+	display: flex;
+	width: 800px;
 }
 .nama input {
-  width: 380px;
+	width: 380px;
 }
 .namadepan {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 
 .profil-saya {
-  display: flex;
-  border: solid 1px #ffffff;
-  margin-bottom: 10px;
-  width: 80%;
-  border-radius: 30px;
-  padding: 0 8px;
+	display: flex;
+	border: solid 1px #ffffff;
+	margin-bottom: 10px;
+	width: 80%;
+	border-radius: 30px;
+	padding: 0 8px;
 }
 
 .profil-saya img {
-  width: 30px;
-  padding-top: 10px;
-  margin-right: 10px;
+	width: 30px;
+	padding-top: 10px;
+	margin-right: 10px;
 }
 
 .inputimage {
-  display: none;
+	display: none;
 }
 
 .navbox {
-  background-color: #ffffff;
-  width: 230px;
-  border-radius: 5px;
-  padding: 20px 10px;
+	background-color: #ffffff;
+	width: 230px;
+	border-radius: 5px;
+	padding: 20px 10px;
 }
 
 .navbox a {
-  color: #ad0d18;
+	color: #ad0d18;
+}
+
+.pesan-error {
+	font-size: 16px;
+	background-color: #de8c8d;
+	color: #a10608;
+	padding: 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+a,
+a:visited,
+a:active,
+a:link {
+	text-decoration: none;
 }

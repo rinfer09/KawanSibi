@@ -7,6 +7,9 @@ Router.patch('/', async (req, res) => {
 	try {
 		const username = req.user.username;
 		const { passwordLama, password1, password2 } = req.body;
+		if(passwordLama!==req.user.password){
+			res.status('500').json({ message: 'password lama salah' });
+		}
 		if (password1 !== password2) {
 			res.status('500').json({ message: 'password tidak sama' });
 		}

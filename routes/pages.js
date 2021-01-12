@@ -66,7 +66,7 @@ Router.get('/quiz/mudah/abjad', (req, res) => {
 		res.redirect('/');
 	}
 });
-Router.get('/quiz/mudah/kata-ganti-orang', (req, res) => {
+Router.get('/quiz/mudah/orang', (req, res) => {
 	if (req.user !== undefined) {
 		res.sendFile(path.resolve('public/quiz.html'));
 	} else {

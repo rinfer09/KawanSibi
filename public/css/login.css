@@ -84,6 +84,23 @@ form {
 	border-radius: 10px;
 }
 
+img {
+	position: absolute;
+	z-index: -1;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+}
+
+.pesan-error {
+	font-size: 16px;
+	background-color: #de8c8d;
+	color: #a10608;
+	padding: 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
 @media (max-width: 824px) {
 	body {
 		font-size: 3vw;
@@ -107,20 +124,4 @@ form {
 		border-radius: 10px;
 		width: 110%;
 	}
-}
-
-img {
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	right: 0;
-}
-
-.pesan-error {
-	font-size: 16px;
-	background-color: #de8c8d;
-	color: #a10608;
-	padding: 20px;
-	border-radius: 5px;
-	margin-top: 10px;
 }

@@ -15,7 +15,7 @@ fetch('/data/quiz.json')
 			case 'angka':
 				displayData(data.mudah[1]);
 				break;
-			case 'kata-ganti-orang':
+			case 'orang':
 				displayData(data.mudah[2]);
 				break;
 			case 'tempat':
@@ -89,8 +89,6 @@ const displayData = (data) => {
 		}
 	};
 
-	console.log('soaaaaal');
-
 	const selanjutnya = document.querySelector('#selanjutnya');
 
 	selanjutnya.addEventListener('click', () => {
@@ -99,7 +97,10 @@ const displayData = (data) => {
 		hasilElement.classList.add('hide');
 
 		const utamaElement = document.querySelector('#utama');
-		utamaElement.classList.remove('blur');
+		utamaElement.classList.add('blur');
+
+		const utama = document.querySelector('#utama');
+		utama.classList.remove('blur');
 		removeAnswer();
 		if (userAnswer === '') {
 			displayData(data, nomer);
@@ -126,10 +127,10 @@ const displayTrueFalse = (check, answer) => {
 	answerElement.textContent = '"' + answer + '"';
 
 	const hasilElement = document.querySelector('#hasil');
-
 	hasilElement.classList.remove('hide');
 
 	const utamaElement = document.querySelector('#utama');
+	utamaElement.classList.add('blur');
 };
 
 const answeringQuestion = () => {

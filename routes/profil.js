@@ -6,7 +6,11 @@ Router.get('/', (req, res) => {
 		res.json({ message: 'tidak ada user' });
 	} else {
 		const fotoProfil = req.user.foto_profil;
-		res.json({ ...req.user, fotoProfilS: fotoProfil.toString('base64') });
+		if (fotoProfil === null) {
+			res.json(req.user);
+		} else {
+			res.json({ ...req.user, fotoProfilS: fotoProfil.toString('base64') });
+		}
 	}
 });
 

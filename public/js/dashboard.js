@@ -51,31 +51,31 @@ fetch('/api/profil')
 		} else {
 			ujian.href = '/ujian';
 		}
-	});
 
-let akhir = 0;
-if ((level = 'mudah')) {
-	akhir = 3;
-} else if ((level = 'menengah')) {
-	akhir = 6;
-} else if ((level = 'sulit')) {
-	akhir = userImage.length;
-}
-
-const userImage = document.querySelectorAll('.gambar');
-const menuPopUp = document.querySelectorAll('.pop-up');
-for (let i = 0; i < userImage.length; i++) {
-	if (i >= akhir) {
-		menuPopUp[
-			i
-		].innerHTML = `<span>Selesaikan materi ${level} Terlebih dahulu</span>`;
-	}
-	userImage[i].onclick = function () {
-		menuPopUp.forEach((e, index) => {
-			if (index !== i) {
-				e.classList.add('invisible');
+		const userImage = document.querySelectorAll('.gambar');
+		const menuPopUp = document.querySelectorAll('.pop-up');
+		for (let i = 0; i < userImage.length; i++) {
+			let akhir = 0;
+			if (level == 'mudah') {
+				akhir = 3;
+			} else if (level == 'menengah') {
+				akhir = 6;
+			} else if (level == 'sulit') {
+				akhir = userImage.length;
 			}
-		});
-		menuPopUp[i].classList.toggle('invisible');
-	};
-}
+			console.log(akhir);
+			if (i >= akhir) {
+				menuPopUp[
+					i
+				].innerHTML = `<span>Selesaikan materi ${level} Terlebih dahulu</span>`;
+			}
+			userImage[i].onclick = function () {
+				menuPopUp.forEach((e, index) => {
+					if (index !== i) {
+						e.classList.add('invisible');
+					}
+				});
+				menuPopUp[i].classList.toggle('invisible');
+			};
+		}
+	});

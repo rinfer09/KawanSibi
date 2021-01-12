@@ -1,8 +1,12 @@
 body {
 	background-color: #eaf1ff;
+	background-image: url('/asset/icon/Dashboard/vector.svg');
+	background-repeat: no-repeat;
+	background-position: -30px;
 	font-family: Rowdies;
 	margin: 0;
 	color: #1f3c88;
+	overflow: auto;
 }
 
 nav {

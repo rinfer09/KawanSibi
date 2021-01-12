@@ -12,9 +12,11 @@ require('./koneksi');
 require('./config/passport')(passport);
 
 app.use(express.static('public'));
+app.use(cookieParser());
+
 app.use(
 	session({
-		secret: process.env.secret,
+		secret: process.env.SECRET,
 		resave: false,
 		saveUninitialized: false,
 	})

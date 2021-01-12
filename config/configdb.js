@@ -1,8 +1,8 @@
+require('dotenv').config();
 const db = {
-	host: 'localhost',
-	user: 'root',
-	password: '',
-	database: 'kawanSibi',
+	host: process.env.HOSTDB || 'localhost',
+	user: process.env.USERDB || 'root',
+	password: process.env.PASSDB || '',
+	database: process.env.DBNAME || 'kawansibi',
 };
-
 module.exports = db;

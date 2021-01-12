@@ -3,6 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const session = require('express-session');
 const passport = require('passport');
+const cookieParser = require('cookie-parser');
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));

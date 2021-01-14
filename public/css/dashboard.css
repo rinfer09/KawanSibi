@@ -65,7 +65,7 @@ a:hover {
 	padding: 5%;
 }
 .progress-heading {
-	margin-left: 15px;
+	margin-left: 10%;
 }
 
 .progres {
@@ -189,7 +189,8 @@ footer {
 .foto-profil {
 	width: 30px;
 	height: 30px;
-	padding-top: 10px;
+	margin-top: 10px;
+	border-radius: 50%;
 }
 
 #popup-menu {

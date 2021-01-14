@@ -10,6 +10,10 @@ a {
 	text-decoration: none;
 }
 
+button {
+	cursor: pointer;
+}
+
 .non-active {
 	opacity: 0.5;
 }
@@ -147,6 +151,10 @@ button {
 	padding: 20px;
 	border-radius: 5px;
 	margin-top: 10px;
+}
+
+#fotoprofil {
+	border-radius: 50%;
 }
 a,
 a:visited,

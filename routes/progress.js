@@ -4,8 +4,7 @@ const conn = require('../koneksi');
 Router.patch('/', async (req, res) => {
 	try {
 		const { level, nilai } = req.body;
-		// const username = req.user.username;
-		const username = 'dennisf';
+		const username = req.user.username;
 		const q = `UPDATE user SET n_${level} = ${nilai} WHERE username = '${username}'`;
 		const data = await conn.query(q, (err, data) => {
 			if (err) {

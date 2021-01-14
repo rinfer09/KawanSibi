@@ -1,4 +1,3 @@
-let level = '';
 const userElement = document.querySelector('#popup-menu');
 userElement.onclick = function () {
 	const userPopUp = document.querySelector('.menu3');
@@ -31,51 +30,41 @@ fetch('/api/profil')
 		nilaiSulit.textContent = Math.floor(sulit) + '%';
 		const ujian = document.querySelector('#ujian-link');
 		if (mudah < 60) {
-			level = 'mudah';
 			ujian.onclick = (e) => {
-				e.preventDefault();
 				alert('selesaikan seluruh materi terlebih dahulu');
 			};
 		} else if (menengah < 60) {
-			level = 'menengah';
+			popUpMenu(3, 'mudah');
 			ujian.onclick = (e) => {
-				e.preventDefault();
 				alert('selesaikan seluruh materi terlebih dahulu');
 			};
 		} else if (sulit < 60) {
-			level = 'sulit';
+			popUpMenu(6, 'menengah');
 			ujian.onclick = (e) => {
-				e.preventDefault();
 				alert('selesaikan seluruh materi terlebih dahulu');
 			};
 		} else {
+			popUpMenu(9, 'sulit');
 			ujian.href = '/ujian';
 		}
-
-		const userImage = document.querySelectorAll('.gambar');
-		const menuPopUp = document.querySelectorAll('.pop-up');
-		for (let i = 0; i < userImage.length; i++) {
-			let akhir = 0;
-			if (level == 'mudah') {
-				akhir = 3;
-			} else if (level == 'menengah') {
-				akhir = 6;
-			} else if (level == 'sulit') {
-				akhir = userImage.length;
-			}
-			console.log(akhir);
-			if (i >= akhir) {
-				menuPopUp[
-					i
-				].innerHTML = `<span>Selesaikan materi ${level} Terlebih dahulu</span>`;
-			}
-			userImage[i].onclick = function () {
-				menuPopUp.forEach((e, index) => {
-					if (index !== i) {
-						e.classList.add('invisible');
-					}
-				});
-				menuPopUp[i].classList.toggle('invisible');
-			};
-		}
 	});
+
+function popUpMenu(akhir, level) {
+	const userImage = document.querySelectorAll('.gambar');
+	const menuPopUp = document.querySelectorAll('.pop-up');
+	for (let i = 0; i < userImage.length; i++) {
+		if (i >= akhir) {
+			menuPopUp[
+				i
+			].innerHTML = `<span>Selesaikan materi ${level} Terlebih dahulu</span>`;
+		}
+		userImage[i].onclick = function () {
+			menuPopUp.forEach((e, index) => {
+				if (index !== i) {
+					e.classList.add('invisible');
+				}
+			});
+			menuPopUp[i].classList.toggle('invisible');
+		};
+	}
+}

@@ -34,19 +34,23 @@ fetch('/api/profil')
 			ujian.onclick = (e) => {
 				alert('selesaikan seluruh materi terlebih dahulu');
 			};
+			return 0;
 		} else if (menengah < 60) {
 			popUpMenu(6, 'mudah');
 			ujian.onclick = (e) => {
 				alert('selesaikan seluruh materi terlebih dahulu');
 			};
+			return 0;
 		} else if (sulit < 60) {
 			popUpMenu(9, 'menengah');
 			ujian.onclick = (e) => {
 				alert('selesaikan seluruh materi terlebih dahulu');
 			};
+			return 0;
 		} else {
 			popUpMenu(9, 'sulit');
 			ujian.href = '/ujian';
+			return 0;
 		}
 	});
 

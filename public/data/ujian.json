@@ -1,126 +1,127 @@
 {
-    "ujian": [
-				{
-					"nomer": 1,
-					"gambar": ["/asset/AbjadSibi/p.jpeg","/asset/Pekerjaan/pilot.jpg"],
-					"pilihan": ["P", "C", "Pilot", "Pasar"],
-					"jawaban": ["P","Pilot"]
-				},
-				{
-					"nomer": 2,
-					"gambar": ["/asset/AbjadSibi/d.jpeg","/asset/GantiOrang/dia.png"],
-					"pilihan": ["A", "D", "Dia", "Dokter"],
-					"jawaban": ["D","Dia"]
-                },
-                {
-					"nomer": 3,
-					"gambar": ["/asset/Tempat/rumah.jpg","/asset/GantiOrang/aku.png"],
-					"pilihan": ["Rumah", "Aku", "Sekolah", "Mereka"],
-					"jawaban": ["Rumah","Aku"]
-                },
-                {
-					"nomer": 4,
-					"gambar": ["/asset/Pekerjaan/guru.jpg","/asset/Perasaan/marah.jpg"],
-					"pilihan": ["Guru", "Kebun", "Aku", "Marah"],
-					"jawaban": ["Guru","Marah"]
-                },
-                {
-					"nomer": 5,
-					"gambar": ["/asset/Keluarga/ayah.jpg","/asset/GantiOrang/kita.png"],
-					"pilihan": ["2", "Ayah", "Ibu", "Kita"],
-					"jawaban": ["Ayah","Kita"]
-                },
-                {
-					"nomer": 6,
-					"gambar": ["/asset/Tempat/kebun.jpg","/asset/BuahSibi/pisang.png"],
-					"pilihan": ["Taman", "Kelapa", "Pisang", "Kebun"],
-					"jawaban": ["Kebun","Pisang"]
-				},
-                {
-					"nomer": 7,
-					"gambar": ["/asset/Perasaan/sedih.jpg","/asset/GantiOrang/dia.png"],
-					"pilihan": ["Bank", "Dia", "Bibi", "Sedih"],
-					"jawaban": ["Sedih","Dia"]
-                },
-                {
-					"nomer": 8,
-					"gambar": ["/asset/Pekerjaan/pegawai.jpg","/asset/Tempat/bank.jpg"],
-					"pilihan": ["Pegawai", "Tentara", "Murid", "Bank"],
-					"jawaban": ["Pegawai","Bank"]
-				},
-                {
-					"nomer": 9,
-					"gambar": ["/asset/AbjadSibi/c.jpeg","/asset/Perasaan/kecewa.jpg"],
-					"pilihan": ["P", "Kecewa", "Murid", "C"],
-					"jawaban": ["C","Kecewa"]
-                },
-                {
-					"nomer": 10,
-					"gambar": ["/asset/GantiOrang/mereka.png","/asset/Keluarga/keluarga.jpg"],
-					"pilihan": ["Bahagia", "Jambu", "Keluarga", "Mereka"],
-					"jawaban": ["Mereka","Keluarga"]
-                },
-                {
-					"nomer": 11,
-					"gambar": ["/asset/AngkaSibi/dua.png","/asset/Keluarga/anak.jpg"],
-					"pilihan": ["2", "3", "Anak", "Selasa"],
-					"jawaban": ["2","Anak"]
-                },
-                {
-					"nomer": 12,
-					"gambar": ["/asset/GantiOrang/kita.png","/asset/Perasaan/senang.jpg"],
-					"pilihan": ["Saya", "Sedih", "Kita", "Senang"],
-					"jawaban": ["Kita","Senang"]
-                },
-                {
-					"nomer": 13,
-					"gambar": ["/asset/Keluarga/anak.jpg","/asset/GantiOrang/kita.png"],
-					"pilihan": ["Anak", "Ayah", "Sabtu", "Kita"],
-					"jawaban": ["Anak","Kita"]
-                },
-                {
-					"nomer": 14,
-					"gambar": ["/asset/Keluarga/paman.jpg","/asset/Keluarga/bibi.jpg"],
-					"pilihan": ["Bank", "Paman", "Minggu", "Bibi"],
-					"jawaban": ["Paman","Bibi"]
-                },
-                {
-					"nomer": 15,
-					"gambar": ["/asset/Hari/jumat.png","/asset/Perasaan/bahagia.jpg"],
-					"pilihan": ["Jumat", "3", "Sedih", "F"],
-					"jawaban": ["Jumat","Bahagia"]
-                },
-                {
-					"nomer": 16,
-					"gambar": ["/asset/BuahSibi/jambu.png","/asset/GantiOrang/kamu.png"],
-					"pilihan": ["Jambu", "Duku", "Aku", "Kami"],
-					"jawaban": ["Jambu","Kamu"]
-				},
-				{
-					"nomer": 17,
-					"gambar": ["/asset/Tempat/kelas.jpg","/asset/AngkaSibi/lima.png"],
-					"pilihan": ["1", "Buruh", "5", "Kelas"],
-					"jawaban": ["Kelas","5"]
-				},
-				{
-					"nomer": 18,
-					"gambar": ["/asset/AngkaSibi/satu.png","/asset/BuahSibi/mangga.png"],
-					"pilihan": ["1", "4", "Bibi", "Mangga"],
-					"jawaban": ["1","Mangga"]
-				},
-				{
-					"nomer": 6,
-					"gambar": ["/asset/Tempat/kebun.jpg","/asset/BuahSibi/kelapa.png"],
-					"pilihan": ["Taman", "Kelapa", "Pisang", "Kebun"],
-					"jawaban": ["Kebun","Kelapa"]
-				},
-				{
-					"nomer": 20,
-					"gambar": ["/asset/AngkaSibi/delapan.png","/asset/AngkaSibi/enam.png"],
-					"pilihan": ["1", "6", "8", "10"],
-					"jawaban": ["8","6"]
-				}
-                
-                
-			]
+	"ujian": [
+		{
+			"nomer": 1,
+			"gambar": ["/asset/AbjadSibi/p.jpeg", "/asset/Pekerjaan/pilot.jpg"],
+			"pilihan": ["P", "C", "Pilot", "Pasar"],
+			"jawaban": ["P", "Pilot"]
+		},
+		{
+			"nomer": 2,
+			"gambar": ["/asset/AbjadSibi/d.jpeg", "/asset/GantiOrang/dia.png"],
+			"pilihan": ["A", "D", "Dia", "Dokter"],
+			"jawaban": ["D", "Dia"]
+		},
+		{
+			"nomer": 3,
+			"gambar": ["/asset/Tempat/rumah.jpg", "/asset/GantiOrang/aku.png"],
+			"pilihan": ["Rumah", "Aku", "Sekolah", "Mereka"],
+			"jawaban": ["Rumah", "Aku"]
+		},
+		{
+			"nomer": 4,
+			"gambar": ["/asset/Pekerjaan/guru.jpg", "/asset/Perasaan/marah.jpg"],
+			"pilihan": ["Guru", "Kebun", "Aku", "Marah"],
+			"jawaban": ["Guru", "Marah"]
+		},
+		{
+			"nomer": 5,
+			"gambar": ["/asset/Keluarga/ayah.jpg", "/asset/GantiOrang/kita.png"],
+			"pilihan": ["2", "Ayah", "Ibu", "Kita"],
+			"jawaban": ["Ayah", "Kita"]
+		},
+		{
+			"nomer": 6,
+			"gambar": ["/asset/Tempat/kebun.jpg", "/asset/BuahSibi/pisang.png"],
+			"pilihan": ["Taman", "Kelapa", "Pisang", "Kebun"],
+			"jawaban": ["Kebun", "Pisang"]
+		},
+		{
+			"nomer": 7,
+			"gambar": ["/asset/Perasaan/sedih.jpg", "/asset/GantiOrang/dia.png"],
+			"pilihan": ["Bank", "Dia", "Bibi", "Sedih"],
+			"jawaban": ["Sedih", "Dia"]
+		},
+		{
+			"nomer": 8,
+			"gambar": ["/asset/Pekerjaan/pegawai.jpg", "/asset/Tempat/bank.jpg"],
+			"pilihan": ["Pegawai", "Tentara", "Murid", "Bank"],
+			"jawaban": ["Pegawai", "Bank"]
+		},
+		{
+			"nomer": 9,
+			"gambar": ["/asset/AbjadSibi/c.jpeg", "/asset/Perasaan/kecewa.jpg"],
+			"pilihan": ["P", "Kecewa", "Murid", "C"],
+			"jawaban": ["C", "Kecewa"]
+		},
+		{
+			"nomer": 10,
+			"gambar": [
+				"/asset/GantiOrang/mereka.png",
+				"/asset/Keluarga/keluarga.jpg"
+			],
+			"pilihan": ["Bahagia", "Jambu", "Keluarga", "Mereka"],
+			"jawaban": ["Mereka", "Keluarga"]
+		},
+		{
+			"nomer": 11,
+			"gambar": ["/asset/AngkaSibi/dua.png", "/asset/Keluarga/anak.jpg"],
+			"pilihan": ["2", "3", "Anak", "Selasa"],
+			"jawaban": ["2", "Anak"]
+		},
+		{
+			"nomer": 12,
+			"gambar": ["/asset/GantiOrang/kita.png", "/asset/Perasaan/senang.jpg"],
+			"pilihan": ["Saya", "Sedih", "Kita", "Senang"],
+			"jawaban": ["Kita", "Senang"]
+		},
+		{
+			"nomer": 13,
+			"gambar": ["/asset/Keluarga/anak.jpg", "/asset/GantiOrang/kita.png"],
+			"pilihan": ["Anak", "Ayah", "Sabtu", "Kita"],
+			"jawaban": ["Anak", "Kita"]
+		},
+		{
+			"nomer": 14,
+			"gambar": ["/asset/Keluarga/paman.jpg", "/asset/Keluarga/bibi.jpg"],
+			"pilihan": ["Bank", "Paman", "Minggu", "Bibi"],
+			"jawaban": ["Paman", "Bibi"]
+		},
+		{
+			"nomer": 15,
+			"gambar": ["/asset/Hari/jumat.png", "/asset/Perasaan/bahagia.jpg"],
+			"pilihan": ["Jumat", "3", "Bahagia", "F"],
+			"jawaban": ["Jumat", "Bahagia"]
+		},
+		{
+			"nomer": 16,
+			"gambar": ["/asset/BuahSibi/jambu.png", "/asset/GantiOrang/kamu.png"],
+			"pilihan": ["Jambu", "Duku", "Aku", "Kamu"],
+			"jawaban": ["Jambu", "Kamu"]
+		},
+		{
+			"nomer": 17,
+			"gambar": ["/asset/Tempat/kelas.jpg", "/asset/AngkaSibi/lima.png"],
+			"pilihan": ["1", "Buruh", "5", "Kelas"],
+			"jawaban": ["Kelas", "5"]
+		},
+		{
+			"nomer": 18,
+			"gambar": ["/asset/AngkaSibi/satu.png", "/asset/BuahSibi/mangga.png"],
+			"pilihan": ["1", "4", "Bibi", "Mangga"],
+			"jawaban": ["1", "Mangga"]
+		},
+		{
+			"nomer": 6,
+			"gambar": ["/asset/Tempat/kebun.jpg", "/asset/BuahSibi/kelapa.png"],
+			"pilihan": ["Taman", "Kelapa", "Pisang", "Kebun"],
+			"jawaban": ["Kebun", "Kelapa"]
+		},
+		{
+			"nomer": 20,
+			"gambar": ["/asset/AngkaSibi/delapan.png", "/asset/AngkaSibi/enam.png"],
+			"pilihan": ["1", "6", "8", "10"],
+			"jawaban": ["8", "6"]
+		}
+	]
 }

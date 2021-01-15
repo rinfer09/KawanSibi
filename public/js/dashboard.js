@@ -30,16 +30,17 @@ fetch('/api/profil')
 		nilaiSulit.textContent = Math.floor(sulit) + '%';
 		const ujian = document.querySelector('#ujian-link');
 		if (mudah < 60) {
-			ujian.onclick = (e) => {
-				alert('selesaikan seluruh materi terlebih dahulu');
-			};
-		} else if (menengah < 60) {
 			popUpMenu(3, 'mudah');
 			ujian.onclick = (e) => {
 				alert('selesaikan seluruh materi terlebih dahulu');
 			};
+		} else if (menengah < 60) {
+			popUpMenu(6, 'mudah');
+			ujian.onclick = (e) => {
+				alert('selesaikan seluruh materi terlebih dahulu');
+			};
 		} else if (sulit < 60) {
-			popUpMenu(6, 'menengah');
+			popUpMenu(9, 'menengah');
 			ujian.onclick = (e) => {
 				alert('selesaikan seluruh materi terlebih dahulu');
 			};

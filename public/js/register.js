@@ -31,16 +31,24 @@ form.addEventListener('submit', (e) => {
 			return res.json();
 		})
 		.then((data) => {
-			console.log(data);
-			data.forEach((element) => {
-				console.log(element.msg);
+			if (Array.isArray(data)) {
+				data.forEach((element) => {
+					const div = document.createElement('div');
+					div.classList.add('pesan-error');
+					const p = document.createElement('p');
+					p.textContent = element.msg;
+					div.appendChild(p);
+					const headerElement = document.querySelector('#judul');
+					headerElement.parentNode.insertBefore(div, form);
+				});
+			} else {
 				const div = document.createElement('div');
 				div.classList.add('pesan-error');
 				const p = document.createElement('p');
-				p.textContent = element.msg;
+				p.textContent = data.message;
 				div.appendChild(p);
 				const headerElement = document.querySelector('#judul');
 				headerElement.parentNode.insertBefore(div, form);
-			});
+			}
 		});
 });

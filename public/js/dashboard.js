@@ -32,19 +32,19 @@ fetch('/api/profil')
 		if (mudah < 60) {
 			popUpMenu(3, 'mudah');
 			ujian.onclick = (e) => {
-				alert('selesaikan seluruh materi terlebih dahulu');
+				alert('selesaikan seluruh materi diatas 60% terlebih dahulu');
 			};
 			return 0;
 		} else if (menengah < 60) {
 			popUpMenu(6, 'mudah');
 			ujian.onclick = (e) => {
-				alert('selesaikan seluruh materi terlebih dahulu');
+				alert('selesaikan seluruh materi diatas 60% terlebih dahulu');
 			};
 			return 0;
 		} else if (sulit < 60) {
 			popUpMenu(9, 'menengah');
 			ujian.onclick = (e) => {
-				alert('selesaikan seluruh materi terlebih dahulu');
+				alert('selesaikan seluruh materi diatas 60% terlebih dahulu');
 			};
 			return 0;
 		} else {
@@ -61,7 +61,7 @@ function popUpMenu(akhir, level) {
 		if (i >= akhir) {
 			menuPopUp[
 				i
-			].innerHTML = `<span>Selesaikan materi ${level} Terlebih dahulu</span>`;
+			].innerHTML = `<span>Selesaikan materi ${level} diatas 60% Terlebih dahulu</span>`;
 		}
 		userImage[i].onclick = function () {
 			menuPopUp.forEach((e, index) => {
